@@ -42,6 +42,11 @@ Source of images: favorites gallery of prominent artist on dA
     - converted all jpg to rgb color space
     - set up test files, including effects 
 
+###### Saturday
+- set up test images
+    - 20 for each effect 
+    - crop: cropped images to squares
+
 ###### TODO: 
 - pHash: 
     - fix sorting function
