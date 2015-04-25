@@ -44,8 +44,19 @@ Source of images: favorites gallery of prominent artist on dA
 
 ###### Saturday
 - set up test images
-    - 20 for each effect 
-    - crop: cropped images to squares
+    - 20 for each effect (see tests folder)
+    - aspect ratio: fixed aspect ratio (300x300px)
+    - contrast: increased histogram contrast
+    - crop: cropped images to squares, up to 1/2 of image cropped off
+    - grayscale: converted to grayscale
+    - hue: modulate histogram 
+    - paint: blobby effect 
+    - resizedown, resizeup: 50% and 200%, respectively 
+    - rotate: rotate 90 degrees
+    - tintred: duochrome
+    - txt: todo, overlaid text 
+- fixing fimq: tried for 30 minutes to install PIl, gave up and installed a virtualenv instead
+- completed fimq implementation
 
 ###### TODO: 
 - pHash: 
