@@ -157,13 +157,11 @@ typedef struct ph_feature_vector {
 /*! /brief Digest info
  */
 
-extern "C" {
-    typedef struct ph_digest {
-        char *id;                   //hash id
-        uint8_t *coeffs;            //the head of the digest integer coefficient array
-        int size;                   //the size of the coeff array
-    } Digest;
-}
+typedef struct ph_digest {
+    char *id;                   //hash id
+    uint8_t *coeffs;            //the head of the digest integer coefficient array
+    int size;                   //the size of the coeff array
+} Digest;
 
 
 /* variables for textual hash */

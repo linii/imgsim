@@ -60,13 +60,17 @@ Source of images: favorites gallery of prominent artist on dA
 - completed fimq implementation
 - completed fimq processing and porting 
 
-###### Sunday
+###### Sunday (worked 5 hours)
 - debugged fimq porting 
+    - this took a ridiculously long time. 
+    - started data collection!!! 
+- set up wrapper files for phash: still working on radial though 
+    - solution to exporting signature data: write to file in a specific format
+- now both phash and fimq are ready for data collection
 
 ###### TODO: 
 - pHash: 
     - fix sorting function
-    - optimize 
     - evaluations
 - openCV: 
     - get Boost working and compile the thing 
@@ -75,4 +79,4 @@ Source of images: favorites gallery of prominent artist on dA
 - fimq: 
     - evaluations
 - overarching question: want to store signatures of some sort 
-    - going to be a huge pain for C++, C
+    - for C: stored in file. really bad but whatever

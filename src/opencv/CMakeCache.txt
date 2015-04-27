@@ -18,25 +18,16 @@
 Boost_DIR:PATH=Boost_DIR-NOTFOUND
 
 //Boost filesystem library (debug)
-Boost_FILESYSTEM_LIBRARY_DEBUG:FILEPATH=/usr/local/lib/libboost_filesystem-mt.a
+Boost_FILESYSTEM_LIBRARY_DEBUG:FILEPATH=/usr/local/Cellar/boost/1.57.0/lib/libboost_filesystem-mt.a
 
 //Boost filesystem library (release)
-Boost_FILESYSTEM_LIBRARY_RELEASE:FILEPATH=/usr/local/lib/libboost_filesystem.a
-
-//Boost foreach library (debug)
-Boost_FOREACH_LIBRARY_DEBUG:FILEPATH=Boost_FOREACH_LIBRARY_DEBUG-NOTFOUND
-
-//Boost foreach library (release)
-Boost_FOREACH_LIBRARY_RELEASE:FILEPATH=Boost_FOREACH_LIBRARY_RELEASE-NOTFOUND
-
-//Path to a file.
-Boost_INCLUDE_DIR:PATH=/usr/local/include
+Boost_FILESYSTEM_LIBRARY_RELEASE:FILEPATH=/usr/local/Cellar/boost/1.57.0/lib/libboost_filesystem.a
 
 //Boost library directory
-Boost_LIBRARY_DIR:PATH=/usr/local/lib
+Boost_LIBRARY_DIR:PATH=/usr/local/Cellar/boost/1.57.0/lib
 
 //Path to a program.
-CMAKE_AR:FILEPATH=/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ar
+CMAKE_AR:FILEPATH=/usr/bin/ar
 
 //Choose the type of build, options are: None(CMAKE_CXX_FLAGS or
 // CMAKE_C_FLAGS used) Debug Release RelWithDebInfo MinSizeRel.
@@ -46,7 +37,7 @@ CMAKE_BUILD_TYPE:STRING=
 CMAKE_COLOR_MAKEFILE:BOOL=ON
 
 //CXX compiler
-CMAKE_CXX_COMPILER:FILEPATH=/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++
+CMAKE_CXX_COMPILER:STRING=/usr/bin/clang++
 
 //Flags used by the compiler during all build types.
 CMAKE_CXX_FLAGS:STRING=
@@ -65,7 +56,7 @@ CMAKE_CXX_FLAGS_RELEASE:STRING=-O3 -DNDEBUG
 CMAKE_CXX_FLAGS_RELWITHDEBINFO:STRING=-O2 -g -DNDEBUG
 
 //C compiler
-CMAKE_C_COMPILER:FILEPATH=/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc
+CMAKE_C_COMPILER:STRING=/usr/bin/clang
 
 //Flags used by the compiler during all build types.
 CMAKE_C_FLAGS:STRING=
@@ -108,7 +99,7 @@ CMAKE_INSTALL_NAME_TOOL:FILEPATH=/usr/bin/install_name_tool
 CMAKE_INSTALL_PREFIX:PATH=/usr/local
 
 //Path to a program.
-CMAKE_LINKER:FILEPATH=/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld
+CMAKE_LINKER:FILEPATH=/usr/bin/ld
 
 //Path to a program.
 CMAKE_MAKE_PROGRAM:FILEPATH=/usr/bin/make
@@ -129,7 +120,7 @@ CMAKE_MODULE_LINKER_FLAGS_RELEASE:STRING=
 CMAKE_MODULE_LINKER_FLAGS_RELWITHDEBINFO:STRING=
 
 //Path to a program.
-CMAKE_NM:FILEPATH=/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/nm
+CMAKE_NM:FILEPATH=/usr/bin/nm
 
 //Path to a program.
 CMAKE_OBJCOPY:FILEPATH=CMAKE_OBJCOPY-NOTFOUND
@@ -149,10 +140,10 @@ CMAKE_OSX_DEPLOYMENT_TARGET:STRING=
 CMAKE_OSX_SYSROOT:STRING=
 
 //Value Computed by CMake
-CMAKE_PROJECT_NAME:STATIC=histogram
+CMAKE_PROJECT_NAME:STATIC=hist
 
 //Path to a program.
-CMAKE_RANLIB:FILEPATH=/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ranlib
+CMAKE_RANLIB:FILEPATH=/usr/bin/ranlib
 
 //Flags used by the linker during the creation of dll's.
 CMAKE_SHARED_LINKER_FLAGS:STRING=
@@ -192,7 +183,7 @@ CMAKE_STATIC_LINKER_FLAGS_RELEASE:STRING=
 CMAKE_STATIC_LINKER_FLAGS_RELWITHDEBINFO:STRING=
 
 //Path to a program.
-CMAKE_STRIP:FILEPATH=/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/strip
+CMAKE_STRIP:FILEPATH=/usr/bin/strip
 
 //If true, cmake will use relative paths in makefiles and projects.
 CMAKE_USE_RELATIVE_PATHS:BOOL=OFF
@@ -221,10 +212,10 @@ OpenCV_LIB_DIR_DBG:PATH=
 OpenCV_LIB_DIR_OPT:PATH=
 
 //Value Computed by CMake
-histogram_BINARY_DIR:STATIC=/Users/SEXY/documents/backend/imglib/src/opencv
+hist_BINARY_DIR:STATIC=/Users/SEXY/documents/backend/imglib/src/opencv
 
 //Value Computed by CMake
-histogram_SOURCE_DIR:STATIC=/Users/SEXY/documents/backend/imglib/src/opencv
+hist_SOURCE_DIR:STATIC=/Users/SEXY/documents/backend/imglib/src/opencv
 
 
 ########################
@@ -237,12 +228,6 @@ Boost_DIR-ADVANCED:INTERNAL=1
 Boost_FILESYSTEM_LIBRARY_DEBUG-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: Boost_FILESYSTEM_LIBRARY_RELEASE
 Boost_FILESYSTEM_LIBRARY_RELEASE-ADVANCED:INTERNAL=1
-//ADVANCED property for variable: Boost_FOREACH_LIBRARY_DEBUG
-Boost_FOREACH_LIBRARY_DEBUG-ADVANCED:INTERNAL=1
-//ADVANCED property for variable: Boost_FOREACH_LIBRARY_RELEASE
-Boost_FOREACH_LIBRARY_RELEASE-ADVANCED:INTERNAL=1
-//ADVANCED property for variable: Boost_INCLUDE_DIR
-Boost_INCLUDE_DIR-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: Boost_LIBRARY_DIR
 Boost_LIBRARY_DIR-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_AR
@@ -384,12 +369,16 @@ OpenCV_CONFIG_PATH-ADVANCED:INTERNAL=1
 OpenCV_LIB_DIR_DBG-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: OpenCV_LIB_DIR_OPT
 OpenCV_LIB_DIR_OPT-ADVANCED:INTERNAL=1
+//Last used BOOST_LIBRARYDIR value.
+_BOOST_LIBRARYDIR_LAST:INTERNAL=/usr/local/Cellar/boost/1.57.0/lib
+//Last used BOOST_ROOT value.
+_BOOST_ROOT_LAST:INTERNAL=/usr/local/Cellar/boost/1.57.0
 //Components requested for this build tree.
-_Boost_COMPONENTS_SEARCHED:INTERNAL=filesystem;foreach
+_Boost_COMPONENTS_SEARCHED:INTERNAL=filesystem
 //Last used Boost_INCLUDE_DIR value.
-_Boost_INCLUDE_DIR_LAST:INTERNAL=/usr/local/include
+_Boost_INCLUDE_DIR_LAST:INTERNAL=/usr/local/Cellar/boost/1.57.0/include
 //Last used Boost_LIBRARY_DIR value.
-_Boost_LIBRARY_DIR_LAST:INTERNAL=/usr/local/lib
+_Boost_LIBRARY_DIR_LAST:INTERNAL=/usr/local/Cellar/boost/1.57.0/lib
 //Last used Boost_NAMESPACE value.
 _Boost_NAMESPACE_LAST:INTERNAL=boost
 //Last used Boost_USE_MULTITHREADED value.

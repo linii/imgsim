@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/Users/SEXY/documents/cryptodraw/backend/histogram.cpp" "/Users/SEXY/documents/cryptodraw/backend/CMakeFiles/histogram.dir/histogram.cpp.o"
+  "/Users/SEXY/documents/backend/imglib/src/opencv/histogram.cpp" "/Users/SEXY/documents/backend/imglib/src/opencv/CMakeFiles/hist.dir/histogram.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "Clang")
 
@@ -14,6 +14,7 @@ set(CMAKE_TARGET_LINKED_INFO_FILES
 
 # The include file search paths:
 set(CMAKE_C_TARGET_INCLUDE_PATH
+  "/usr/local/Cellar/boost/1.57.0/include"
   "/usr/local/include/opencv"
   "/usr/local/include"
   )
