@@ -42,7 +42,7 @@ Source of images: favorites gallery of prominent artist on dA
     - converted all jpg to rgb color space
     - set up test files, including effects 
 
-###### Saturday
+###### Saturday (worked 7 hours)
 - set up test images
     - 20 for each effect (see tests folder)
     - aspect ratio: fixed aspect ratio (300x300px)
@@ -55,22 +55,24 @@ Source of images: favorites gallery of prominent artist on dA
     - rotate: rotate 90 degrees
     - tintred: duochrome
     - txt: todo, overlaid text 
+- tested for duplicates among source images
 - fixing fimq: tried for 30 minutes to install PIl, gave up and installed a virtualenv instead
 - completed fimq implementation
+- completed fimq processing and porting 
+
+###### Sunday
+- debugged fimq porting 
 
 ###### TODO: 
 - pHash: 
     - fix sorting function
-    - optimize (with profiling)
+    - optimize 
     - evaluations
 - openCV: 
     - get Boost working and compile the thing 
     - debug the program 
     - evaluations 
 - fimq: 
-    - finish implementing query function
-    - optimization by porting to C binary 
     - evaluations
 - overarching question: want to store signatures of some sort 
-    - but how? 
-- Compact Data Structures paper: implement if there's enough time 
+    - going to be a huge pain for C++, C
