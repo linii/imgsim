@@ -1,0 +1,180 @@
+TESTING: ../../tests/testaspectratio
+METHOD: (OpenCV) Correlation Metric
+QUERY: 1.jpg 1020.jpg 118.jpg 2724.jpg 1247.jpg 1880.jpg 2158.jpg 1511.jpg 1659.jpg 1910.jpg 2859.jpg 
+METHOD: (OpenCV) Chi-Square Metric
+QUERY: 1.jpg 1020.jpg 1191.jpg 3433.jpg 2009.jpg 754.jpg 3442.jpg 238.jpg 27.jpg 113.jpg 305.jpg 
+METHOD: (OpenCV) Intersection Metric
+QUERY: 1.jpg 1020.jpg 1204.jpg 3497.jpg 321.jpg 2674.jpg 380.jpg 450.jpg 1266.jpg 2724.jpg 2774.jpg 
+METHOD: (OpenCV) Bhattacharyya Metric
+QUERY: 1.jpg 1020.jpg 2724.jpg 2859.jpg 1247.jpg 337.jpg 1880.jpg 118.jpg 314.jpg 1634.jpg 2774.jpg 
+TESTING: ../../tests/testaspectratio
+METHOD: (OpenCV) Correlation Metric
+QUERY: 10.jpg 489.jpg 84.jpg 969.jpg 2735.jpg 3285.jpg 816.jpg 1726.jpg 1700.jpg 2272.jpg 1971.jpg 
+METHOD: (OpenCV) Chi-Square Metric
+QUERY: 10.jpg 489.jpg 1726.jpg 3280.jpg 1456.jpg 754.jpg 1760.jpg 1920.jpg 1506.jpg 2971.jpg 99.jpg 
+METHOD: (OpenCV) Intersection Metric
+QUERY: 10.jpg 489.jpg 2485.jpg 84.jpg 3315.jpg 528.jpg 2154.jpg 2330.jpg 3400.jpg 40.jpg 1765.jpg 
+METHOD: (OpenCV) Bhattacharyya Metric
+QUERY: 10.jpg 489.jpg 354.jpg 84.jpg 1464.jpg 2485.jpg 3182.jpg 1447.jpg 2154.jpg 2272.jpg 937.jpg 
+TESTING: ../../tests/testaspectratio
+METHOD: (OpenCV) Correlation Metric
+QUERY: 11.jpg 6.jpg 2477.jpg 1217.jpg 70.jpg 1072.jpg 1179.jpg 651.jpg 1.jpg 1981.jpg 1219.jpg 
+METHOD: (OpenCV) Chi-Square Metric
+QUERY: 11.jpg 6.jpg 1191.jpg 238.jpg 2940.jpg 3433.jpg 27.jpg 374.jpg 113.jpg 305.jpg 754.jpg 
+METHOD: (OpenCV) Intersection Metric
+QUERY: 11.jpg 6.jpg 450.jpg 3104.jpg 2775.jpg 2131.jpg 1667.jpg 765.jpg 3497.jpg 2674.jpg 1900.jpg 
+METHOD: (OpenCV) Bhattacharyya Metric
+QUERY: 11.jpg 6.jpg 1.jpg 70.jpg 2477.jpg 2674.jpg 1343.jpg 1217.jpg 84.jpg 1179.jpg 3257.jpg 
+TESTING: ../../tests/testaspectratio
+METHOD: (OpenCV) Correlation Metric
+QUERY: 12.jpg 1208.jpg 818.jpg 3407.jpg 1667.jpg 1814.jpg 1026.jpg 910.jpg 2527.jpg 3094.jpg 1239.jpg 
+METHOD: (OpenCV) Chi-Square Metric
+QUERY: 12.jpg 1208.jpg 1239.jpg 3407.jpg 3194.jpg 1814.jpg 3293.jpg 2906.jpg 1026.jpg 767.jpg 1489.jpg 
+METHOD: (OpenCV) Intersection Metric
+QUERY: 12.jpg 1208.jpg 3094.jpg 2327.jpg 1667.jpg 1765.jpg 84.jpg 2730.jpg 3497.jpg 1516.jpg 1779.jpg 
+METHOD: (OpenCV) Bhattacharyya Metric
+QUERY: 12.jpg 1208.jpg 818.jpg 295.jpg 1239.jpg 3094.jpg 1667.jpg 3425.jpg 254.jpg 3407.jpg 221.jpg 
+TESTING: ../../tests/testaspectratio
+METHOD: (OpenCV) Correlation Metric
+QUERY: 13.jpg 765.jpg 1667.jpg 1208.jpg 853.jpg 818.jpg 3192.jpg 2775.jpg 84.jpg 1682.jpg 1814.jpg 
+METHOD: (OpenCV) Chi-Square Metric
+QUERY: 13.jpg 765.jpg 1904.jpg 2420.jpg 3437.jpg 1801.jpg 2390.jpg 2911.jpg 1857.jpg 1359.jpg 2782.jpg 
+METHOD: (OpenCV) Intersection Metric
+QUERY: 13.jpg 765.jpg 1900.jpg 3192.jpg 3169.jpg 1667.jpg 3497.jpg 1682.jpg 2775.jpg 1516.jpg 3094.jpg 
+METHOD: (OpenCV) Bhattacharyya Metric
+QUERY: 13.jpg 765.jpg 1667.jpg 1682.jpg 498.jpg 3192.jpg 2782.jpg 1801.jpg 1602.jpg 1904.jpg 3169.jpg 
+TESTING: ../../tests/testaspectratio
+METHOD: (OpenCV) Correlation Metric
+QUERY: 14.jpg 130.jpg 1557.jpg 1794.jpg 261.jpg 1361.jpg 2793.jpg 2103.jpg 641.jpg 2525.jpg 930.jpg 
+METHOD: (OpenCV) Chi-Square Metric
+QUERY: 14.jpg 130.jpg 2971.jpg 3149.jpg 875.jpg 3002.jpg 100.jpg 385.jpg 1978.jpg 291.jpg 127.jpg 
+METHOD: (OpenCV) Intersection Metric
+QUERY: 14.jpg 130.jpg 3497.jpg 2126.jpg 2622.jpg 2330.jpg 2801.jpg 1774.jpg 3266.jpg 1794.jpg 1409.jpg 
+METHOD: (OpenCV) Bhattacharyya Metric
+QUERY: 14.jpg 130.jpg 1557.jpg 1794.jpg 1361.jpg 684.jpg 2762.jpg 66.jpg 2914.jpg 2525.jpg 668.jpg 
+TESTING: ../../tests/testaspectratio
+METHOD: (OpenCV) Correlation Metric
+QUERY: 15.jpg 1399.jpg 47.jpg 1186.jpg 1685.jpg 1862.jpg 49.jpg 3236.jpg 1378.jpg 2545.jpg 3362.jpg 
+METHOD: (OpenCV) Chi-Square Metric
+QUERY: 15.jpg 1399.jpg 430.jpg 298.jpg 1898.jpg 195.jpg 320.jpg 996.jpg 11.jpg 2506.jpg 2723.jpg 
+METHOD: (OpenCV) Intersection Metric
+QUERY: 15.jpg 1399.jpg 84.jpg 3192.jpg 1685.jpg 2330.jpg 2076.jpg 2073.jpg 49.jpg 3315.jpg 3400.jpg 
+METHOD: (OpenCV) Bhattacharyya Metric
+QUERY: 15.jpg 1399.jpg 937.jpg 195.jpg 1186.jpg 84.jpg 129.jpg 745.jpg 2723.jpg 2304.jpg 65.jpg 
+TESTING: ../../tests/testaspectratio
+METHOD: (OpenCV) Correlation Metric
+QUERY: 16.jpg 1629.jpg 1990.jpg 2970.jpg 2725.jpg 3474.jpg 1315.jpg 3103.jpg 3310.jpg 2646.jpg 2264.jpg 
+METHOD: (OpenCV) Chi-Square Metric
+QUERY: 16.jpg 1629.jpg 1483.jpg 1524.jpg 705.jpg 2009.jpg 3442.jpg 2547.jpg 2854.jpg 243.jpg 754.jpg 
+METHOD: (OpenCV) Intersection Metric
+QUERY: 16.jpg 1629.jpg 389.jpg 332.jpg 1774.jpg 1105.jpg 2253.jpg 2241.jpg 2330.jpg 2622.jpg 3497.jpg 
+METHOD: (OpenCV) Bhattacharyya Metric
+QUERY: 16.jpg 1629.jpg 2725.jpg 2646.jpg 101.jpg 2144.jpg 2098.jpg 614.jpg 3474.jpg 332.jpg 3181.jpg 
+TESTING: ../../tests/testaspectratio
+METHOD: (OpenCV) Correlation Metric
+QUERY: 17.jpg 1734.jpg 2330.jpg 42.jpg 2148.jpg 1046.jpg 1447.jpg 3304.jpg 730.jpg 2822.jpg 1052.jpg 
+METHOD: (OpenCV) Chi-Square Metric
+QUERY: 17.jpg 1734.jpg 1055.jpg 298.jpg 2778.jpg 1964.jpg 1495.jpg 3498.jpg 1060.jpg 2615.jpg 1095.jpg 
+METHOD: (OpenCV) Intersection Metric
+QUERY: 17.jpg 1734.jpg 2330.jpg 3315.jpg 1447.jpg 923.jpg 2485.jpg 2148.jpg 2622.jpg 1336.jpg 528.jpg 
+METHOD: (OpenCV) Bhattacharyya Metric
+QUERY: 17.jpg 1734.jpg 42.jpg 1447.jpg 1046.jpg 3098.jpg 1052.jpg 551.jpg 3088.jpg 1224.jpg 352.jpg 
+TESTING: ../../tests/testaspectratio
+METHOD: (OpenCV) Correlation Metric
+QUERY: 18.jpg 2015.jpg 2163.jpg 1068.jpg 2155.jpg 3386.jpg 3439.jpg 3256.jpg 393.jpg 2130.jpg 2326.jpg 
+METHOD: (OpenCV) Chi-Square Metric
+QUERY: 18.jpg 2015.jpg 324.jpg 3260.jpg 2905.jpg 2950.jpg 2681.jpg 3123.jpg 2665.jpg 1524.jpg 1670.jpg 
+METHOD: (OpenCV) Intersection Metric
+QUERY: 18.jpg 2015.jpg 1523.jpg 2130.jpg 621.jpg 1900.jpg 2163.jpg 2775.jpg 2076.jpg 1516.jpg 321.jpg 
+METHOD: (OpenCV) Bhattacharyya Metric
+QUERY: 18.jpg 2015.jpg 2155.jpg 2782.jpg 1523.jpg 2163.jpg 2326.jpg 2130.jpg 621.jpg 321.jpg 3007.jpg 
+TESTING: ../../tests/testaspectratio
+METHOD: (OpenCV) Correlation Metric
+QUERY: 19.jpg 2095.jpg 2069.jpg 2871.jpg 1859.jpg 1434.jpg 667.jpg 2501.jpg 135.jpg 104.jpg 273.jpg 
+METHOD: (OpenCV) Chi-Square Metric
+QUERY: 19.jpg 2095.jpg 2547.jpg 845.jpg 1920.jpg 2613.jpg 2168.jpg 2940.jpg 2573.jpg 3433.jpg 165.jpg 
+METHOD: (OpenCV) Intersection Metric
+QUERY: 19.jpg 2069.jpg 2076.jpg 1575.jpg 1434.jpg 2095.jpg 2163.jpg 321.jpg 1516.jpg 2775.jpg 341.jpg 
+METHOD: (OpenCV) Bhattacharyya Metric
+QUERY: 19.jpg 2095.jpg 667.jpg 2501.jpg 2871.jpg 1575.jpg 9.jpg 135.jpg 273.jpg 2471.jpg 2316.jpg 
+TESTING: ../../tests/testaspectratio
+METHOD: (OpenCV) Correlation Metric
+QUERY: 2.jpg 2426.jpg 2646.jpg 647.jpg 2470.jpg 596.jpg 2537.jpg 1701.jpg 43.jpg 2676.jpg 614.jpg 
+METHOD: (OpenCV) Chi-Square Metric
+QUERY: 2.jpg 2426.jpg 3473.jpg 80.jpg 568.jpg 2493.jpg 3280.jpg 896.jpg 206.jpg 1432.jpg 846.jpg 
+METHOD: (OpenCV) Intersection Metric
+QUERY: 2.jpg 2426.jpg 1688.jpg 2769.jpg 7.jpg 2104.jpg 1598.jpg 1779.jpg 1336.jpg 400.jpg 1900.jpg 
+METHOD: (OpenCV) Bhattacharyya Metric
+QUERY: 2.jpg 2426.jpg 1598.jpg 2769.jpg 2104.jpg 2101.jpg 1688.jpg 1113.jpg 7.jpg 1921.jpg 596.jpg 
+TESTING: ../../tests/testaspectratio
+METHOD: (OpenCV) Correlation Metric
+QUERY: 20.jpg 2399.jpg 1643.jpg 3393.jpg 2236.jpg 742.jpg 1533.jpg 3265.jpg 2350.jpg 2901.jpg 2115.jpg 
+METHOD: (OpenCV) Chi-Square Metric
+QUERY: 20.jpg 2399.jpg 3110.jpg 2519.jpg 1732.jpg 291.jpg 1607.jpg 127.jpg 2604.jpg 99.jpg 3346.jpg 
+METHOD: (OpenCV) Intersection Metric
+QUERY: 20.jpg 2399.jpg 3265.jpg 742.jpg 380.jpg 1204.jpg 3393.jpg 823.jpg 1533.jpg 2619.jpg 3169.jpg 
+METHOD: (OpenCV) Bhattacharyya Metric
+QUERY: 20.jpg 2399.jpg 3393.jpg 1833.jpg 1643.jpg 742.jpg 2102.jpg 2236.jpg 1533.jpg 2350.jpg 3265.jpg 
+TESTING: ../../tests/testaspectratio
+METHOD: (OpenCV) Correlation Metric
+QUERY: 3.jpg 2779.jpg 3328.jpg 2275.jpg 2130.jpg 1068.jpg 2531.jpg 2679.jpg 2855.jpg 393.jpg 2796.jpg 
+METHOD: (OpenCV) Chi-Square Metric
+QUERY: 3.jpg 2779.jpg 2531.jpg 346.jpg 3034.jpg 3385.jpg 2355.jpg 171.jpg 1386.jpg 1617.jpg 979.jpg 
+METHOD: (OpenCV) Intersection Metric
+QUERY: 3.jpg 2779.jpg 1900.jpg 2855.jpg 3165.jpg 2130.jpg 2275.jpg 2073.jpg 1516.jpg 1779.jpg 528.jpg 
+METHOD: (OpenCV) Bhattacharyya Metric
+QUERY: 3.jpg 2779.jpg 2796.jpg 2275.jpg 2855.jpg 3165.jpg 346.jpg 2601.jpg 1803.jpg 2130.jpg 2440.jpg 
+TESTING: ../../tests/testaspectratio
+METHOD: (OpenCV) Correlation Metric
+QUERY: 4.jpg 2794.jpg 1423.jpg 2568.jpg 68.jpg 1904.jpg 1611.jpg 2192.jpg 3181.jpg 1390.jpg 2868.jpg 
+METHOD: (OpenCV) Chi-Square Metric
+QUERY: 4.jpg 2794.jpg 3303.jpg 2210.jpg 1870.jpg 3302.jpg 1302.jpg 3115.jpg 1301.jpg 2868.jpg 2923.jpg 
+METHOD: (OpenCV) Intersection Metric
+QUERY: 4.jpg 2327.jpg 2794.jpg 818.jpg 1208.jpg 910.jpg 1814.jpg 765.jpg 2730.jpg 3129.jpg 84.jpg 
+METHOD: (OpenCV) Bhattacharyya Metric
+QUERY: 4.jpg 2794.jpg 1814.jpg 3194.jpg 3390.jpg 1715.jpg 2868.jpg 3018.jpg 2759.jpg 1322.jpg 1328.jpg 
+TESTING: ../../tests/testaspectratio
+METHOD: (OpenCV) Correlation Metric
+QUERY: 5.jpg 3098.jpg 1447.jpg 3088.jpg 42.jpg 249.jpg 1102.jpg 551.jpg 2658.jpg 2678.jpg 1466.jpg 
+METHOD: (OpenCV) Chi-Square Metric
+QUERY: 5.jpg 3098.jpg 384.jpg 1045.jpg 1214.jpg 2648.jpg 3218.jpg 527.jpg 1665.jpg 641.jpg 1964.jpg 
+METHOD: (OpenCV) Intersection Metric
+QUERY: 5.jpg 3098.jpg 2622.jpg 1447.jpg 2485.jpg 40.jpg 3315.jpg 2330.jpg 1774.jpg 3497.jpg 249.jpg 
+METHOD: (OpenCV) Bhattacharyya Metric
+QUERY: 5.jpg 3098.jpg 1447.jpg 249.jpg 1774.jpg 1224.jpg 3218.jpg 3088.jpg 551.jpg 42.jpg 2812.jpg 
+TESTING: ../../tests/testaspectratio
+METHOD: (OpenCV) Correlation Metric
+QUERY: 6.jpg 3135.jpg 827.jpg 2964.jpg 1197.jpg 2551.jpg 3214.jpg 2422.jpg 2605.jpg 2383.jpg 1806.jpg 
+METHOD: (OpenCV) Chi-Square Metric
+QUERY: 6.jpg 3135.jpg 2551.jpg 756.jpg 754.jpg 705.jpg 2854.jpg 3433.jpg 3321.jpg 3473.jpg 444.jpg 
+METHOD: (OpenCV) Intersection Metric
+QUERY: 6.jpg 1026.jpg 2694.jpg 1487.jpg 1268.jpg 3135.jpg 2906.jpg 2383.jpg 2422.jpg 2520.jpg 1661.jpg 
+METHOD: (OpenCV) Bhattacharyya Metric
+QUERY: 6.jpg 3135.jpg 827.jpg 1806.jpg 2551.jpg 2964.jpg 2197.jpg 1561.jpg 756.jpg 1197.jpg 2383.jpg 
+TESTING: ../../tests/testaspectratio
+METHOD: (OpenCV) Correlation Metric
+QUERY: 7.jpg 3458.jpg 3038.jpg 646.jpg 1178.jpg 2851.jpg 2461.jpg 1943.jpg 2613.jpg 2618.jpg 2799.jpg 
+METHOD: (OpenCV) Chi-Square Metric
+QUERY: 7.jpg 3458.jpg 1943.jpg 1728.jpg 1676.jpg 1967.jpg 3002.jpg 1732.jpg 1456.jpg 1800.jpg 705.jpg 
+METHOD: (OpenCV) Intersection Metric
+QUERY: 7.jpg 1688.jpg 3458.jpg 1615.jpg 1409.jpg 3315.jpg 1658.jpg 2485.jpg 644.jpg 3497.jpg 1336.jpg 
+METHOD: (OpenCV) Bhattacharyya Metric
+QUERY: 7.jpg 3458.jpg 3038.jpg 1615.jpg 1263.jpg 1753.jpg 3315.jpg 2558.jpg 3211.jpg 1886.jpg 2851.jpg 
+TESTING: ../../tests/testaspectratio
+METHOD: (OpenCV) Correlation Metric
+QUERY: 8.jpg 3485.jpg 2128.jpg 3288.jpg 775.jpg 1675.jpg 1388.jpg 1307.jpg 1783.jpg 778.jpg 1297.jpg 
+METHOD: (OpenCV) Chi-Square Metric
+QUERY: 8.jpg 3485.jpg 1388.jpg 1675.jpg 16.jpg 1173.jpg 454.jpg 2557.jpg 1934.jpg 1223.jpg 1062.jpg 
+METHOD: (OpenCV) Intersection Metric
+QUERY: 8.jpg 976.jpg 1227.jpg 3094.jpg 686.jpg 1064.jpg 818.jpg 1289.jpg 2775.jpg 2420.jpg 1461.jpg 
+METHOD: (OpenCV) Bhattacharyya Metric
+QUERY: 8.jpg 3485.jpg 1388.jpg 1675.jpg 2128.jpg 1405.jpg 2351.jpg 1850.jpg 2629.jpg 1783.jpg 1094.jpg 
+TESTING: ../../tests/testaspectratio
+METHOD: (OpenCV) Correlation Metric
+QUERY: 9.jpg 407.jpg 579.jpg 384.jpg 956.jpg 1828.jpg 1951.jpg 3046.jpg 769.jpg 2074.jpg 3496.jpg 
+METHOD: (OpenCV) Chi-Square Metric
+QUERY: 9.jpg 407.jpg 2408.jpg 165.jpg 2356.jpg 1718.jpg 2615.jpg 1221.jpg 1288.jpg 3149.jpg 3117.jpg 
+METHOD: (OpenCV) Intersection Metric
+QUERY: 9.jpg 407.jpg 2622.jpg 2126.jpg 306.jpg 1447.jpg 352.jpg 3315.jpg 2148.jpg 40.jpg 2485.jpg 
+METHOD: (OpenCV) Bhattacharyya Metric
+QUERY: 9.jpg 407.jpg 384.jpg 956.jpg 1951.jpg 579.jpg 1214.jpg 527.jpg 1828.jpg 769.jpg 2541.jpg 

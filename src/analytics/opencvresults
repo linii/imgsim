@@ -1,0 +1,506 @@
+RESULTS OF TEST:  ../../tests/test
+
+METHOD:  (OpenCV) Correlation Metric
+	Correct:  ['1.jpg', '10.jpg', '11.jpg', '12.jpg', '13.jpg', '14.jpg', '15.jpg', '16.jpg', '17.jpg', '18.jpg', '19.jpg', '2.jpg', '20.jpg', '3.jpg', '4.jpg', '5.jpg', '6.jpg', '7.jpg', '8.jpg', '9.jpg']
+	Sum:  20 / 20 1
+
+	Somewhat correct:  []
+	Sum:  0 / 20 0
+
+	Nowhere to be found:  []
+	Sum:  0 / 20 0
+OVERALL CORRECT:  20 / 20 1
+
+METHOD:  (OpenCV) Chi-Square Metric
+	Correct:  ['1.jpg', '10.jpg', '11.jpg', '12.jpg', '13.jpg', '14.jpg', '15.jpg', '16.jpg', '17.jpg', '18.jpg', '19.jpg', '2.jpg', '20.jpg', '3.jpg', '4.jpg', '5.jpg', '6.jpg', '7.jpg', '8.jpg', '9.jpg']
+	Sum:  20 / 20 1
+
+	Somewhat correct:  []
+	Sum:  0 / 20 0
+
+	Nowhere to be found:  []
+	Sum:  0 / 20 0
+OVERALL CORRECT:  20 / 20 1
+
+METHOD:  (OpenCV) Intersection Metric
+	Correct:  ['1.jpg', '10.jpg', '11.jpg', '12.jpg', '13.jpg', '14.jpg', '15.jpg', '16.jpg', '17.jpg', '18.jpg', '19.jpg', '2.jpg', '20.jpg', '3.jpg', '4.jpg', '5.jpg', '6.jpg', '7.jpg', '9.jpg']
+	Sum:  19 / 20 0
+
+	Somewhat correct:  []
+	Sum:  0 / 20 0
+
+	Nowhere to be found:  ['8.jpg']
+	Sum:  1 / 20 0
+OVERALL CORRECT:  19 / 20 0
+
+METHOD:  (OpenCV) Bhattacharyya Metric
+	Correct:  ['1.jpg', '10.jpg', '11.jpg', '12.jpg', '13.jpg', '14.jpg', '15.jpg', '16.jpg', '17.jpg', '18.jpg', '19.jpg', '2.jpg', '20.jpg', '3.jpg', '4.jpg', '5.jpg', '6.jpg', '7.jpg', '8.jpg', '9.jpg']
+	Sum:  20 / 20 1
+
+	Somewhat correct:  []
+	Sum:  0 / 20 0
+
+	Nowhere to be found:  []
+	Sum:  0 / 20 0
+OVERALL CORRECT:  20 / 20 1
+
+RESULTS OF TEST:  ../../tests/testaspectratio
+
+METHOD:  (OpenCV) Correlation Metric
+	Correct:  ['1.jpg', '10.jpg', '11.jpg', '12.jpg', '13.jpg', '14.jpg', '15.jpg', '16.jpg', '17.jpg', '18.jpg', '19.jpg', '2.jpg', '20.jpg', '3.jpg', '4.jpg', '5.jpg', '6.jpg', '7.jpg', '8.jpg', '9.jpg']
+	Sum:  20 / 20 1
+
+	Somewhat correct:  []
+	Sum:  0 / 20 0
+
+	Nowhere to be found:  []
+	Sum:  0 / 20 0
+OVERALL CORRECT:  20 / 20 1
+
+METHOD:  (OpenCV) Chi-Square Metric
+	Correct:  ['1.jpg', '10.jpg', '11.jpg', '12.jpg', '13.jpg', '14.jpg', '15.jpg', '16.jpg', '17.jpg', '18.jpg', '19.jpg', '2.jpg', '20.jpg', '3.jpg', '4.jpg', '5.jpg', '6.jpg', '7.jpg', '8.jpg', '9.jpg']
+	Sum:  20 / 20 1
+
+	Somewhat correct:  []
+	Sum:  0 / 20 0
+
+	Nowhere to be found:  []
+	Sum:  0 / 20 0
+OVERALL CORRECT:  20 / 20 1
+
+METHOD:  (OpenCV) Intersection Metric
+	Correct:  ['1.jpg', '10.jpg', '11.jpg', '12.jpg', '13.jpg', '14.jpg', '15.jpg', '16.jpg', '17.jpg', '18.jpg', '2.jpg', '20.jpg', '3.jpg', '5.jpg', '9.jpg']
+	Sum:  15 / 20 0
+
+	Somewhat correct:  [('4.jpg', 2), ('7.jpg', 2), ('19.jpg', 5), ('6.jpg', 5)]
+	Sum:  4 / 20 0
+
+	Nowhere to be found:  ['8.jpg']
+	Sum:  1 / 20 0
+OVERALL CORRECT:  19 / 20 0
+
+METHOD:  (OpenCV) Bhattacharyya Metric
+	Correct:  ['1.jpg', '10.jpg', '11.jpg', '12.jpg', '13.jpg', '14.jpg', '15.jpg', '16.jpg', '17.jpg', '18.jpg', '19.jpg', '2.jpg', '20.jpg', '3.jpg', '4.jpg', '5.jpg', '6.jpg', '7.jpg', '8.jpg', '9.jpg']
+	Sum:  20 / 20 1
+
+	Somewhat correct:  []
+	Sum:  0 / 20 0
+
+	Nowhere to be found:  []
+	Sum:  0 / 20 0
+OVERALL CORRECT:  20 / 20 1
+
+RESULTS OF TEST:  ../../tests/testcontrast
+
+METHOD:  (OpenCV) Correlation Metric
+	Correct:  ['1.jpg', '10.jpg', '11.jpg', '12.jpg', '2.jpg', '20.jpg', '4.jpg', '5.jpg', '6.jpg', '7.jpg', '8.jpg', '9.jpg']
+	Sum:  12 / 20 0
+
+	Somewhat correct:  [('18.jpg', 2), ('3.jpg', 2), ('13.jpg', 10)]
+	Sum:  3 / 20 0
+
+	Nowhere to be found:  ['14.jpg', '15.jpg', '16.jpg', '17.jpg', '19.jpg']
+	Sum:  5 / 20 0
+OVERALL CORRECT:  15 / 20 0
+
+METHOD:  (OpenCV) Chi-Square Metric
+	Correct:  ['10.jpg', '4.jpg', '6.jpg', '7.jpg', '8.jpg', '9.jpg']
+	Sum:  6 / 20 0
+
+	Somewhat correct:  [('12.jpg', 4), ('5.jpg', 4), ('19.jpg', 6), ('11.jpg', 7)]
+	Sum:  4 / 20 0
+
+	Nowhere to be found:  ['1.jpg', '13.jpg', '14.jpg', '15.jpg', '16.jpg', '17.jpg', '18.jpg', '2.jpg', '20.jpg', '3.jpg']
+	Sum:  10 / 20 0
+OVERALL CORRECT:  10 / 20 0
+
+METHOD:  (OpenCV) Intersection Metric
+	Correct:  ['10.jpg', '12.jpg', '18.jpg', '7.jpg', '9.jpg']
+	Sum:  5 / 20 0
+
+	Somewhat correct:  [('13.jpg', 4), ('3.jpg', 4), ('2.jpg', 5)]
+	Sum:  3 / 20 0
+
+	Nowhere to be found:  ['1.jpg', '11.jpg', '14.jpg', '15.jpg', '16.jpg', '17.jpg', '19.jpg', '20.jpg', '4.jpg', '5.jpg', '6.jpg', '8.jpg']
+	Sum:  12 / 20 0
+OVERALL CORRECT:  8 / 20 0
+
+METHOD:  (OpenCV) Bhattacharyya Metric
+	Correct:  ['1.jpg', '10.jpg', '11.jpg', '12.jpg', '18.jpg', '2.jpg', '20.jpg', '3.jpg', '4.jpg', '5.jpg', '6.jpg', '7.jpg', '8.jpg', '9.jpg']
+	Sum:  14 / 20 0
+
+	Somewhat correct:  [('13.jpg', 2), ('19.jpg', 5), ('15.jpg', 10)]
+	Sum:  3 / 20 0
+
+	Nowhere to be found:  ['14.jpg', '16.jpg', '17.jpg']
+	Sum:  3 / 20 0
+OVERALL CORRECT:  17 / 20 0
+
+RESULTS OF TEST:  ../../tests/testcrop
+
+METHOD:  (OpenCV) Correlation Metric
+	Correct:  ['10.jpg', '11.jpg', '12.jpg', '13.jpg', '14.jpg', '15.jpg', '17.jpg', '18.jpg', '19.jpg', '2.jpg', '20.jpg', '3.jpg', '4.jpg', '5.jpg', '6.jpg', '7.jpg', '8.jpg', '9.jpg']
+	Sum:  18 / 20 0
+
+	Somewhat correct:  [('16.jpg', 4)]
+	Sum:  1 / 20 0
+
+	Nowhere to be found:  ['1.jpg']
+	Sum:  1 / 20 0
+OVERALL CORRECT:  19 / 20 0
+
+METHOD:  (OpenCV) Chi-Square Metric
+	Correct:  ['14.jpg', '19.jpg', '20.jpg', '4.jpg', '6.jpg', '7.jpg', '8.jpg']
+	Sum:  7 / 20 0
+
+	Somewhat correct:  [('5.jpg', 5)]
+	Sum:  1 / 20 0
+
+	Nowhere to be found:  ['1.jpg', '10.jpg', '11.jpg', '12.jpg', '13.jpg', '15.jpg', '16.jpg', '17.jpg', '18.jpg', '2.jpg', '3.jpg', '9.jpg']
+	Sum:  12 / 20 0
+OVERALL CORRECT:  8 / 20 0
+
+METHOD:  (OpenCV) Intersection Metric
+	Correct:  ['12.jpg', '13.jpg', '15.jpg', '17.jpg', '19.jpg', '9.jpg']
+	Sum:  6 / 20 0
+
+	Somewhat correct:  [('18.jpg', 3), ('2.jpg', 3), ('20.jpg', 3), ('6.jpg', 5), ('3.jpg', 7)]
+	Sum:  5 / 20 0
+
+	Nowhere to be found:  ['1.jpg', '10.jpg', '11.jpg', '14.jpg', '16.jpg', '4.jpg', '5.jpg', '7.jpg', '8.jpg']
+	Sum:  9 / 20 0
+OVERALL CORRECT:  11 / 20 0
+
+METHOD:  (OpenCV) Bhattacharyya Metric
+	Correct:  ['1.jpg', '10.jpg', '11.jpg', '12.jpg', '13.jpg', '14.jpg', '15.jpg', '16.jpg', '17.jpg', '18.jpg', '19.jpg', '2.jpg', '20.jpg', '3.jpg', '4.jpg', '5.jpg', '6.jpg', '7.jpg', '8.jpg', '9.jpg']
+	Sum:  20 / 20 1
+
+	Somewhat correct:  []
+	Sum:  0 / 20 0
+
+	Nowhere to be found:  []
+	Sum:  0 / 20 0
+OVERALL CORRECT:  20 / 20 1
+
+RESULTS OF TEST:  ../../tests/testgrayscale
+
+METHOD:  (OpenCV) Correlation Metric
+	Correct:  []
+	Sum:  0 / 20 0
+
+	Somewhat correct:  []
+	Sum:  0 / 20 0
+
+	Nowhere to be found:  ['1.jpg', '10.jpg', '11.jpg', '12.jpg', '13.jpg', '14.jpg', '15.jpg', '16.jpg', '17.jpg', '18.jpg', '19.jpg', '2.jpg', '20.jpg', '3.jpg', '4.jpg', '5.jpg', '6.jpg', '7.jpg', '8.jpg', '9.jpg']
+	Sum:  20 / 20 1
+OVERALL CORRECT:  0 / 20 0
+
+METHOD:  (OpenCV) Chi-Square Metric
+	Correct:  []
+	Sum:  0 / 20 0
+
+	Somewhat correct:  []
+	Sum:  0 / 20 0
+
+	Nowhere to be found:  ['1.jpg', '10.jpg', '11.jpg', '12.jpg', '13.jpg', '14.jpg', '15.jpg', '16.jpg', '17.jpg', '18.jpg', '19.jpg', '2.jpg', '20.jpg', '3.jpg', '4.jpg', '5.jpg', '6.jpg', '7.jpg', '8.jpg', '9.jpg']
+	Sum:  20 / 20 1
+OVERALL CORRECT:  0 / 20 0
+
+METHOD:  (OpenCV) Intersection Metric
+	Correct:  []
+	Sum:  0 / 20 0
+
+	Somewhat correct:  []
+	Sum:  0 / 20 0
+
+	Nowhere to be found:  ['1.jpg', '10.jpg', '11.jpg', '12.jpg', '13.jpg', '14.jpg', '15.jpg', '16.jpg', '17.jpg', '18.jpg', '19.jpg', '2.jpg', '20.jpg', '3.jpg', '4.jpg', '5.jpg', '6.jpg', '7.jpg', '8.jpg', '9.jpg']
+	Sum:  20 / 20 1
+OVERALL CORRECT:  0 / 20 0
+
+METHOD:  (OpenCV) Bhattacharyya Metric
+	Correct:  []
+	Sum:  0 / 20 0
+
+	Somewhat correct:  []
+	Sum:  0 / 20 0
+
+	Nowhere to be found:  ['1.jpg', '10.jpg', '11.jpg', '12.jpg', '13.jpg', '14.jpg', '15.jpg', '16.jpg', '17.jpg', '18.jpg', '19.jpg', '2.jpg', '20.jpg', '3.jpg', '4.jpg', '5.jpg', '6.jpg', '7.jpg', '8.jpg', '9.jpg']
+	Sum:  20 / 20 1
+OVERALL CORRECT:  0 / 20 0
+
+RESULTS OF TEST:  ../../tests/testhue
+
+METHOD:  (OpenCV) Correlation Metric
+	Correct:  []
+	Sum:  0 / 20 0
+
+	Somewhat correct:  []
+	Sum:  0 / 20 0
+
+	Nowhere to be found:  ['1.jpg', '10.jpg', '11.jpg', '12.jpg', '13.jpg', '14.jpg', '15.jpg', '16.jpg', '17.jpg', '18.jpg', '19.jpg', '2.jpg', '20.jpg', '3.jpg', '4.jpg', '5.jpg', '6.jpg', '7.jpg', '8.jpg', '9.jpg']
+	Sum:  20 / 20 1
+OVERALL CORRECT:  0 / 20 0
+
+METHOD:  (OpenCV) Chi-Square Metric
+	Correct:  []
+	Sum:  0 / 20 0
+
+	Somewhat correct:  []
+	Sum:  0 / 20 0
+
+	Nowhere to be found:  ['1.jpg', '10.jpg', '11.jpg', '12.jpg', '13.jpg', '14.jpg', '15.jpg', '16.jpg', '17.jpg', '18.jpg', '19.jpg', '2.jpg', '20.jpg', '3.jpg', '4.jpg', '5.jpg', '6.jpg', '7.jpg', '8.jpg', '9.jpg']
+	Sum:  20 / 20 1
+OVERALL CORRECT:  0 / 20 0
+
+METHOD:  (OpenCV) Intersection Metric
+	Correct:  []
+	Sum:  0 / 20 0
+
+	Somewhat correct:  []
+	Sum:  0 / 20 0
+
+	Nowhere to be found:  ['1.jpg', '10.jpg', '11.jpg', '12.jpg', '13.jpg', '14.jpg', '15.jpg', '16.jpg', '17.jpg', '18.jpg', '19.jpg', '2.jpg', '20.jpg', '3.jpg', '4.jpg', '5.jpg', '6.jpg', '7.jpg', '8.jpg', '9.jpg']
+	Sum:  20 / 20 1
+OVERALL CORRECT:  0 / 20 0
+
+METHOD:  (OpenCV) Bhattacharyya Metric
+	Correct:  []
+	Sum:  0 / 20 0
+
+	Somewhat correct:  []
+	Sum:  0 / 20 0
+
+	Nowhere to be found:  ['1.jpg', '10.jpg', '11.jpg', '12.jpg', '13.jpg', '14.jpg', '15.jpg', '16.jpg', '17.jpg', '18.jpg', '19.jpg', '2.jpg', '20.jpg', '3.jpg', '4.jpg', '5.jpg', '6.jpg', '7.jpg', '8.jpg', '9.jpg']
+	Sum:  20 / 20 1
+OVERALL CORRECT:  0 / 20 0
+
+RESULTS OF TEST:  ../../tests/testresizedown
+
+METHOD:  (OpenCV) Correlation Metric
+	Correct:  ['1.jpg', '10.jpg', '11.jpg', '12.jpg', '13.jpg', '14.jpg', '15.jpg', '16.jpg', '17.jpg', '18.jpg', '19.jpg', '2.jpg', '20.jpg', '3.jpg', '4.jpg', '5.jpg', '6.jpg', '7.jpg', '8.jpg', '9.jpg']
+	Sum:  20 / 20 1
+
+	Somewhat correct:  []
+	Sum:  0 / 20 0
+
+	Nowhere to be found:  []
+	Sum:  0 / 20 0
+OVERALL CORRECT:  20 / 20 1
+
+METHOD:  (OpenCV) Chi-Square Metric
+	Correct:  ['1.jpg', '10.jpg', '11.jpg', '12.jpg', '13.jpg', '14.jpg', '15.jpg', '16.jpg', '17.jpg', '18.jpg', '19.jpg', '2.jpg', '20.jpg', '3.jpg', '4.jpg', '5.jpg', '6.jpg', '7.jpg', '8.jpg', '9.jpg']
+	Sum:  20 / 20 1
+
+	Somewhat correct:  []
+	Sum:  0 / 20 0
+
+	Nowhere to be found:  []
+	Sum:  0 / 20 0
+OVERALL CORRECT:  20 / 20 1
+
+METHOD:  (OpenCV) Intersection Metric
+	Correct:  ['1.jpg', '10.jpg', '11.jpg', '12.jpg', '13.jpg', '14.jpg', '15.jpg', '16.jpg', '17.jpg', '18.jpg', '2.jpg', '20.jpg', '3.jpg', '5.jpg', '7.jpg', '9.jpg']
+	Sum:  16 / 20 0
+
+	Somewhat correct:  [('4.jpg', 2), ('6.jpg', 2), ('19.jpg', 5)]
+	Sum:  3 / 20 0
+
+	Nowhere to be found:  ['8.jpg']
+	Sum:  1 / 20 0
+OVERALL CORRECT:  19 / 20 0
+
+METHOD:  (OpenCV) Bhattacharyya Metric
+	Correct:  ['1.jpg', '10.jpg', '11.jpg', '12.jpg', '13.jpg', '14.jpg', '15.jpg', '16.jpg', '17.jpg', '18.jpg', '19.jpg', '2.jpg', '20.jpg', '3.jpg', '4.jpg', '5.jpg', '6.jpg', '7.jpg', '8.jpg', '9.jpg']
+	Sum:  20 / 20 1
+
+	Somewhat correct:  []
+	Sum:  0 / 20 0
+
+	Nowhere to be found:  []
+	Sum:  0 / 20 0
+OVERALL CORRECT:  20 / 20 1
+
+RESULTS OF TEST:  ../../tests/testresizeup
+
+METHOD:  (OpenCV) Correlation Metric
+	Correct:  ['1.jpg', '10.jpg', '11.jpg', '12.jpg', '13.jpg', '14.jpg', '15.jpg', '16.jpg', '17.jpg', '18.jpg', '19.jpg', '2.jpg', '20.jpg', '3.jpg', '4.jpg', '5.jpg', '6.jpg', '7.jpg', '8.jpg', '9.jpg']
+	Sum:  20 / 20 1
+
+	Somewhat correct:  []
+	Sum:  0 / 20 0
+
+	Nowhere to be found:  []
+	Sum:  0 / 20 0
+OVERALL CORRECT:  20 / 20 1
+
+METHOD:  (OpenCV) Chi-Square Metric
+	Correct:  ['1.jpg', '10.jpg', '11.jpg', '12.jpg', '13.jpg', '14.jpg', '15.jpg', '16.jpg', '17.jpg', '18.jpg', '19.jpg', '2.jpg', '20.jpg', '3.jpg', '4.jpg', '5.jpg', '6.jpg', '7.jpg', '8.jpg', '9.jpg']
+	Sum:  20 / 20 1
+
+	Somewhat correct:  []
+	Sum:  0 / 20 0
+
+	Nowhere to be found:  []
+	Sum:  0 / 20 0
+OVERALL CORRECT:  20 / 20 1
+
+METHOD:  (OpenCV) Intersection Metric
+	Correct:  ['1.jpg', '10.jpg', '11.jpg', '12.jpg', '13.jpg', '14.jpg', '15.jpg', '16.jpg', '17.jpg', '18.jpg', '19.jpg', '2.jpg', '20.jpg', '3.jpg', '4.jpg', '5.jpg', '6.jpg', '7.jpg', '9.jpg']
+	Sum:  19 / 20 0
+
+	Somewhat correct:  []
+	Sum:  0 / 20 0
+
+	Nowhere to be found:  ['8.jpg']
+	Sum:  1 / 20 0
+OVERALL CORRECT:  19 / 20 0
+
+METHOD:  (OpenCV) Bhattacharyya Metric
+	Correct:  ['1.jpg', '10.jpg', '11.jpg', '12.jpg', '13.jpg', '14.jpg', '15.jpg', '16.jpg', '17.jpg', '18.jpg', '19.jpg', '2.jpg', '20.jpg', '3.jpg', '4.jpg', '5.jpg', '6.jpg', '7.jpg', '8.jpg', '9.jpg']
+	Sum:  20 / 20 1
+
+	Somewhat correct:  []
+	Sum:  0 / 20 0
+
+	Nowhere to be found:  []
+	Sum:  0 / 20 0
+OVERALL CORRECT:  20 / 20 1
+
+RESULTS OF TEST:  ../../tests/testpaint
+
+METHOD:  (OpenCV) Correlation Metric
+	Correct:  ['1.jpg', '10.jpg', '11.jpg', '12.jpg', '13.jpg', '14.jpg', '15.jpg', '16.jpg', '17.jpg', '18.jpg', '19.jpg', '2.jpg', '20.jpg', '3.jpg', '4.jpg', '5.jpg', '6.jpg', '7.jpg', '8.jpg', '9.jpg']
+	Sum:  20 / 20 1
+
+	Somewhat correct:  []
+	Sum:  0 / 20 0
+
+	Nowhere to be found:  []
+	Sum:  0 / 20 0
+OVERALL CORRECT:  20 / 20 1
+
+METHOD:  (OpenCV) Chi-Square Metric
+	Correct:  ['1.jpg', '10.jpg', '11.jpg', '12.jpg', '13.jpg', '14.jpg', '15.jpg', '16.jpg', '17.jpg', '18.jpg', '19.jpg', '2.jpg', '20.jpg', '3.jpg', '4.jpg', '5.jpg', '6.jpg', '7.jpg', '8.jpg', '9.jpg']
+	Sum:  20 / 20 1
+
+	Somewhat correct:  []
+	Sum:  0 / 20 0
+
+	Nowhere to be found:  []
+	Sum:  0 / 20 0
+OVERALL CORRECT:  20 / 20 1
+
+METHOD:  (OpenCV) Intersection Metric
+	Correct:  ['1.jpg', '10.jpg', '11.jpg', '12.jpg', '13.jpg', '14.jpg', '15.jpg', '16.jpg', '17.jpg', '18.jpg', '2.jpg', '20.jpg', '3.jpg', '4.jpg', '5.jpg', '6.jpg', '7.jpg', '9.jpg']
+	Sum:  18 / 20 0
+
+	Somewhat correct:  [('19.jpg', 2)]
+	Sum:  1 / 20 0
+
+	Nowhere to be found:  ['8.jpg']
+	Sum:  1 / 20 0
+OVERALL CORRECT:  19 / 20 0
+
+METHOD:  (OpenCV) Bhattacharyya Metric
+	Correct:  ['1.jpg', '10.jpg', '11.jpg', '12.jpg', '13.jpg', '14.jpg', '15.jpg', '16.jpg', '17.jpg', '18.jpg', '19.jpg', '2.jpg', '20.jpg', '3.jpg', '4.jpg', '5.jpg', '6.jpg', '7.jpg', '8.jpg', '9.jpg']
+	Sum:  20 / 20 1
+
+	Somewhat correct:  []
+	Sum:  0 / 20 0
+
+	Nowhere to be found:  []
+	Sum:  0 / 20 0
+OVERALL CORRECT:  20 / 20 1
+
+RESULTS OF TEST:  ../../tests/testrotate
+
+METHOD:  (OpenCV) Correlation Metric
+	Correct:  ['1.jpg', '10.jpg', '11.jpg', '12.jpg', '13.jpg', '14.jpg', '15.jpg', '16.jpg', '17.jpg', '18.jpg', '19.jpg', '2.jpg', '20.jpg', '3.jpg', '4.jpg', '5.jpg', '6.jpg', '7.jpg', '8.jpg', '9.jpg']
+	Sum:  20 / 20 1
+
+	Somewhat correct:  []
+	Sum:  0 / 20 0
+
+	Nowhere to be found:  []
+	Sum:  0 / 20 0
+OVERALL CORRECT:  20 / 20 1
+
+METHOD:  (OpenCV) Chi-Square Metric
+	Correct:  ['1.jpg', '10.jpg', '11.jpg', '12.jpg', '13.jpg', '14.jpg', '15.jpg', '16.jpg', '17.jpg', '18.jpg', '19.jpg', '2.jpg', '20.jpg', '3.jpg', '4.jpg', '5.jpg', '6.jpg', '7.jpg', '8.jpg', '9.jpg']
+	Sum:  20 / 20 1
+
+	Somewhat correct:  []
+	Sum:  0 / 20 0
+
+	Nowhere to be found:  []
+	Sum:  0 / 20 0
+OVERALL CORRECT:  20 / 20 1
+
+METHOD:  (OpenCV) Intersection Metric
+	Correct:  ['1.jpg', '10.jpg', '11.jpg', '12.jpg', '13.jpg', '14.jpg', '15.jpg', '16.jpg', '17.jpg', '18.jpg', '19.jpg', '2.jpg', '20.jpg', '3.jpg', '4.jpg', '5.jpg', '6.jpg', '7.jpg', '9.jpg']
+	Sum:  19 / 20 0
+
+	Somewhat correct:  []
+	Sum:  0 / 20 0
+
+	Nowhere to be found:  ['8.jpg']
+	Sum:  1 / 20 0
+OVERALL CORRECT:  19 / 20 0
+
+METHOD:  (OpenCV) Bhattacharyya Metric
+	Correct:  ['1.jpg', '10.jpg', '11.jpg', '12.jpg', '13.jpg', '14.jpg', '15.jpg', '16.jpg', '17.jpg', '18.jpg', '19.jpg', '2.jpg', '20.jpg', '3.jpg', '4.jpg', '5.jpg', '6.jpg', '7.jpg', '8.jpg', '9.jpg']
+	Sum:  20 / 20 1
+
+	Somewhat correct:  []
+	Sum:  0 / 20 0
+
+	Nowhere to be found:  []
+	Sum:  0 / 20 0
+OVERALL CORRECT:  20 / 20 1
+
+RESULTS OF TEST:  ../../tests/testtintred
+
+METHOD:  (OpenCV) Correlation Metric
+	Correct:  []
+	Sum:  0 / 20 0
+
+	Somewhat correct:  [('8.jpg', 2), ('7.jpg', 3), ('9.jpg', 4)]
+	Sum:  3 / 20 0
+
+	Nowhere to be found:  ['1.jpg', '10.jpg', '11.jpg', '12.jpg', '13.jpg', '14.jpg', '15.jpg', '16.jpg', '17.jpg', '18.jpg', '19.jpg', '2.jpg', '20.jpg', '3.jpg', '4.jpg', '5.jpg', '6.jpg']
+	Sum:  17 / 20 0
+OVERALL CORRECT:  3 / 20 0
+
+METHOD:  (OpenCV) Chi-Square Metric
+	Correct:  []
+	Sum:  0 / 20 0
+
+	Somewhat correct:  [('8.jpg', 2)]
+	Sum:  1 / 20 0
+
+	Nowhere to be found:  ['1.jpg', '10.jpg', '11.jpg', '12.jpg', '13.jpg', '14.jpg', '15.jpg', '16.jpg', '17.jpg', '18.jpg', '19.jpg', '2.jpg', '20.jpg', '3.jpg', '4.jpg', '5.jpg', '6.jpg', '7.jpg', '9.jpg']
+	Sum:  19 / 20 0
+OVERALL CORRECT:  1 / 20 0
+
+METHOD:  (OpenCV) Intersection Metric
+	Correct:  []
+	Sum:  0 / 20 0
+
+	Somewhat correct:  [('7.jpg', 5)]
+	Sum:  1 / 20 0
+
+	Nowhere to be found:  ['1.jpg', '10.jpg', '11.jpg', '12.jpg', '13.jpg', '14.jpg', '15.jpg', '16.jpg', '17.jpg', '18.jpg', '19.jpg', '2.jpg', '20.jpg', '3.jpg', '4.jpg', '5.jpg', '6.jpg', '8.jpg', '9.jpg']
+	Sum:  19 / 20 0
+OVERALL CORRECT:  1 / 20 0
+
+METHOD:  (OpenCV) Bhattacharyya Metric
+	Correct:  ['16.jpg', '7.jpg', '8.jpg', '9.jpg']
+	Sum:  4 / 20 0
+
+	Somewhat correct:  []
+	Sum:  0 / 20 0
+
+	Nowhere to be found:  ['1.jpg', '10.jpg', '11.jpg', '12.jpg', '13.jpg', '14.jpg', '15.jpg', '17.jpg', '18.jpg', '19.jpg', '2.jpg', '20.jpg', '3.jpg', '4.jpg', '5.jpg', '6.jpg']
+	Sum:  16 / 20 0
+OVERALL CORRECT:  4 / 20 0
+

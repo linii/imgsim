@@ -3,6 +3,10 @@ Processing program for scoring queries,
 given the tools to reconstruct the unique wavelet signature for each image:
 search arrays, averages, lookup dictionary and coefficients.
 
+Called in the following format:
+python fmiq-process.py [ search array output ] [ coefficient dictionary output]
+     [ image averages ] [ lookup dictionary] [ query file 1 ] [ query file 2 ] [ ... ]
+
 Lining Wang
 4/25/2015
 """
@@ -14,11 +18,9 @@ import numpy as np
 import sys
 import os
 
-
-
 def main():
-    assert len(sys.argv) == 6
-    queries = sys.argv[1]
+    assert len(sys.argv) >= 6
+
     m = 60
     s = 256
 
@@ -29,7 +31,7 @@ def main():
         search.append(searcharr)
 
     # reconstruct search arrays
-    sf = open(sys.argv[2]) # x
+    sf = open(sys.argv[1]) # x
     num = 0
     for line in sf:
         test = line.split()
@@ -43,7 +45,7 @@ def main():
 
     coeffs = {}
     first = True
-    cf = open(sys.argv[3]) # X
+    cf = open(sys.argv[2]) # X
     for c in cf:
         if not c: continue
         f = c.split()
@@ -58,7 +60,7 @@ def main():
         lst.append(c.split())
     coeffs[currentFile] = lst
 
-    avg = open(sys.argv[4]) # X
+    avg = open(sys.argv[3]) # X
     avgs = []
     for line in avg:
         line = line.split()
@@ -71,7 +73,7 @@ def main():
 
     lookup = {}
     reverse = {}
-    lf = open(sys.argv[5]) # X
+    lf = open(sys.argv[4]) # X
     for line in lf:
         c = line.split()
         lookup[int(c[0])] = c[1]
@@ -79,29 +81,31 @@ def main():
 
     index = len(avgs)
 
-    for root, _, files in os.walk(queries):
-        for f in files:
-            _, ext = os.path.splitext(f)
-            if ext != '.jpg':
-                continue
+    querylist = sys.argv[5:]
+    for queries in querylist:
+        print "TESTING: ", str(queries)
+        for root, _, files in os.walk(queries):
+            for f in files:
+                _, ext = os.path.splitext(f)
+                if ext != '.jpg':
+                    continue
 
-            fullpath = os.path.join(root, f)
+                fullpath = os.path.join(root, f)
 
-            img = Image.open(fullpath)
-            if img.mode != 'RGB':
-                os.remove(fullpath)
-                continue
+                img = Image.open(fullpath)
+                # if img.mode != 'RGB':
+                #     os.remove(fullpath)
+                #     continue
 
-            # print "GENERATING", f
-            imgvals = process(img, 256)
-            avg, cs = decImage(imgvals, m, index)
+                imgvals = process(img, 256)
+                avg, cs = decImage(imgvals, m, index)
 
-            print "SCORING", f
-            scores = scoreQuery(cs, avg, search, index, avgs)
+                print "METHOD: Fast Multiresolution Image Querying"
+                print "QUERY: ", f, " ",
 
-            print "RESULTS"
-            for s in scores:
-                print lookup[s[1]], " ", s[0]
+                scores = scoreQuery(cs, avg, search, index, avgs)
+                for s in scores:
+                    print lookup[s[1]], " ",
 
 
 if __name__ == '__main__':

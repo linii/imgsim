@@ -1,0 +1,180 @@
+TESTING: ../../tests/testgrayscale
+METHOD: (OpenCV) Correlation Metric
+QUERY: 1.jpg 912.jpg 912.jpg 912.jpg 912.jpg 912.jpg 912.jpg 912.jpg 912.jpg 912.jpg 912.jpg 
+METHOD: (OpenCV) Chi-Square Metric
+QUERY: 1.jpg 991.jpg 991.jpg 991.jpg 991.jpg 991.jpg 991.jpg 991.jpg 991.jpg 991.jpg 991.jpg 
+METHOD: (OpenCV) Intersection Metric
+QUERY: 1.jpg 998.jpg 998.jpg 998.jpg 998.jpg 998.jpg 998.jpg 998.jpg 998.jpg 998.jpg 998.jpg 
+METHOD: (OpenCV) Bhattacharyya Metric
+QUERY: 1.jpg 912.jpg 912.jpg 912.jpg 912.jpg 912.jpg 912.jpg 912.jpg 912.jpg 912.jpg 912.jpg 
+TESTING: ../../tests/testgrayscale
+METHOD: (OpenCV) Correlation Metric
+QUERY: 10.jpg 912.jpg 912.jpg 912.jpg 912.jpg 912.jpg 912.jpg 912.jpg 912.jpg 912.jpg 912.jpg 
+METHOD: (OpenCV) Chi-Square Metric
+QUERY: 10.jpg 991.jpg 991.jpg 991.jpg 991.jpg 991.jpg 991.jpg 991.jpg 991.jpg 991.jpg 991.jpg 
+METHOD: (OpenCV) Intersection Metric
+QUERY: 10.jpg 998.jpg 998.jpg 998.jpg 998.jpg 998.jpg 998.jpg 998.jpg 998.jpg 998.jpg 998.jpg 
+METHOD: (OpenCV) Bhattacharyya Metric
+QUERY: 10.jpg 912.jpg 912.jpg 912.jpg 912.jpg 912.jpg 912.jpg 912.jpg 912.jpg 912.jpg 912.jpg 
+TESTING: ../../tests/testgrayscale
+METHOD: (OpenCV) Correlation Metric
+QUERY: 11.jpg 912.jpg 912.jpg 912.jpg 912.jpg 912.jpg 912.jpg 912.jpg 912.jpg 912.jpg 912.jpg 
+METHOD: (OpenCV) Chi-Square Metric
+QUERY: 11.jpg 998.jpg 998.jpg 998.jpg 998.jpg 998.jpg 998.jpg 998.jpg 998.jpg 998.jpg 998.jpg 
+METHOD: (OpenCV) Intersection Metric
+QUERY: 11.jpg 998.jpg 998.jpg 998.jpg 998.jpg 998.jpg 998.jpg 998.jpg 998.jpg 998.jpg 998.jpg 
+METHOD: (OpenCV) Bhattacharyya Metric
+QUERY: 11.jpg 912.jpg 912.jpg 912.jpg 912.jpg 912.jpg 912.jpg 912.jpg 912.jpg 912.jpg 912.jpg 
+TESTING: ../../tests/testgrayscale
+METHOD: (OpenCV) Correlation Metric
+QUERY: 12.jpg 912.jpg 912.jpg 912.jpg 912.jpg 912.jpg 912.jpg 912.jpg 912.jpg 912.jpg 912.jpg 
+METHOD: (OpenCV) Chi-Square Metric
+QUERY: 12.jpg 998.jpg 998.jpg 998.jpg 998.jpg 998.jpg 998.jpg 998.jpg 998.jpg 998.jpg 998.jpg 
+METHOD: (OpenCV) Intersection Metric
+QUERY: 12.jpg 998.jpg 998.jpg 998.jpg 998.jpg 998.jpg 998.jpg 998.jpg 998.jpg 998.jpg 998.jpg 
+METHOD: (OpenCV) Bhattacharyya Metric
+QUERY: 12.jpg 912.jpg 912.jpg 912.jpg 912.jpg 912.jpg 912.jpg 912.jpg 912.jpg 912.jpg 912.jpg 
+TESTING: ../../tests/testgrayscale
+METHOD: (OpenCV) Correlation Metric
+QUERY: 13.jpg 912.jpg 912.jpg 912.jpg 912.jpg 912.jpg 912.jpg 912.jpg 912.jpg 912.jpg 912.jpg 
+METHOD: (OpenCV) Chi-Square Metric
+QUERY: 13.jpg 998.jpg 998.jpg 998.jpg 998.jpg 998.jpg 998.jpg 998.jpg 998.jpg 998.jpg 998.jpg 
+METHOD: (OpenCV) Intersection Metric
+QUERY: 13.jpg 998.jpg 998.jpg 998.jpg 998.jpg 998.jpg 998.jpg 998.jpg 998.jpg 998.jpg 998.jpg 
+METHOD: (OpenCV) Bhattacharyya Metric
+QUERY: 13.jpg 912.jpg 912.jpg 912.jpg 912.jpg 912.jpg 912.jpg 912.jpg 912.jpg 912.jpg 912.jpg 
+TESTING: ../../tests/testgrayscale
+METHOD: (OpenCV) Correlation Metric
+QUERY: 14.jpg 912.jpg 912.jpg 912.jpg 912.jpg 912.jpg 912.jpg 912.jpg 912.jpg 912.jpg 912.jpg 
+METHOD: (OpenCV) Chi-Square Metric
+QUERY: 14.jpg 998.jpg 998.jpg 998.jpg 998.jpg 998.jpg 998.jpg 998.jpg 998.jpg 998.jpg 998.jpg 
+METHOD: (OpenCV) Intersection Metric
+QUERY: 14.jpg 998.jpg 998.jpg 998.jpg 998.jpg 998.jpg 998.jpg 998.jpg 998.jpg 998.jpg 998.jpg 
+METHOD: (OpenCV) Bhattacharyya Metric
+QUERY: 14.jpg 912.jpg 912.jpg 912.jpg 912.jpg 912.jpg 912.jpg 912.jpg 912.jpg 912.jpg 912.jpg 
+TESTING: ../../tests/testgrayscale
+METHOD: (OpenCV) Correlation Metric
+QUERY: 15.jpg 912.jpg 912.jpg 912.jpg 912.jpg 912.jpg 912.jpg 912.jpg 912.jpg 912.jpg 912.jpg 
+METHOD: (OpenCV) Chi-Square Metric
+QUERY: 15.jpg 998.jpg 998.jpg 998.jpg 998.jpg 998.jpg 998.jpg 998.jpg 998.jpg 998.jpg 998.jpg 
+METHOD: (OpenCV) Intersection Metric
+QUERY: 15.jpg 998.jpg 998.jpg 998.jpg 998.jpg 998.jpg 998.jpg 998.jpg 998.jpg 998.jpg 998.jpg 
+METHOD: (OpenCV) Bhattacharyya Metric
+QUERY: 15.jpg 912.jpg 912.jpg 912.jpg 912.jpg 912.jpg 912.jpg 912.jpg 912.jpg 912.jpg 912.jpg 
+TESTING: ../../tests/testgrayscale
+METHOD: (OpenCV) Correlation Metric
+QUERY: 16.jpg 912.jpg 912.jpg 912.jpg 912.jpg 912.jpg 912.jpg 912.jpg 912.jpg 912.jpg 912.jpg 
+METHOD: (OpenCV) Chi-Square Metric
+QUERY: 16.jpg 998.jpg 998.jpg 998.jpg 998.jpg 998.jpg 998.jpg 998.jpg 998.jpg 998.jpg 998.jpg 
+METHOD: (OpenCV) Intersection Metric
+QUERY: 16.jpg 998.jpg 998.jpg 998.jpg 998.jpg 998.jpg 998.jpg 998.jpg 998.jpg 998.jpg 998.jpg 
+METHOD: (OpenCV) Bhattacharyya Metric
+QUERY: 16.jpg 912.jpg 912.jpg 912.jpg 912.jpg 912.jpg 912.jpg 912.jpg 912.jpg 912.jpg 912.jpg 
+TESTING: ../../tests/testgrayscale
+METHOD: (OpenCV) Correlation Metric
+QUERY: 17.jpg 912.jpg 912.jpg 912.jpg 912.jpg 912.jpg 912.jpg 912.jpg 912.jpg 912.jpg 912.jpg 
+METHOD: (OpenCV) Chi-Square Metric
+QUERY: 17.jpg 998.jpg 998.jpg 998.jpg 998.jpg 998.jpg 998.jpg 998.jpg 998.jpg 998.jpg 998.jpg 
+METHOD: (OpenCV) Intersection Metric
+QUERY: 17.jpg 998.jpg 998.jpg 998.jpg 998.jpg 998.jpg 998.jpg 998.jpg 998.jpg 998.jpg 998.jpg 
+METHOD: (OpenCV) Bhattacharyya Metric
+QUERY: 17.jpg 912.jpg 912.jpg 912.jpg 912.jpg 912.jpg 912.jpg 912.jpg 912.jpg 912.jpg 912.jpg 
+TESTING: ../../tests/testgrayscale
+METHOD: (OpenCV) Correlation Metric
+QUERY: 18.jpg 912.jpg 912.jpg 912.jpg 912.jpg 912.jpg 912.jpg 912.jpg 912.jpg 912.jpg 912.jpg 
+METHOD: (OpenCV) Chi-Square Metric
+QUERY: 18.jpg 998.jpg 998.jpg 998.jpg 998.jpg 998.jpg 998.jpg 998.jpg 998.jpg 998.jpg 998.jpg 
+METHOD: (OpenCV) Intersection Metric
+QUERY: 18.jpg 998.jpg 998.jpg 998.jpg 998.jpg 998.jpg 998.jpg 998.jpg 998.jpg 998.jpg 998.jpg 
+METHOD: (OpenCV) Bhattacharyya Metric
+QUERY: 18.jpg 912.jpg 912.jpg 912.jpg 912.jpg 912.jpg 912.jpg 912.jpg 912.jpg 912.jpg 912.jpg 
+TESTING: ../../tests/testgrayscale
+METHOD: (OpenCV) Correlation Metric
+QUERY: 19.jpg 912.jpg 912.jpg 912.jpg 912.jpg 912.jpg 912.jpg 912.jpg 912.jpg 912.jpg 912.jpg 
+METHOD: (OpenCV) Chi-Square Metric
+QUERY: 19.jpg 998.jpg 998.jpg 998.jpg 998.jpg 998.jpg 998.jpg 998.jpg 998.jpg 998.jpg 998.jpg 
+METHOD: (OpenCV) Intersection Metric
+QUERY: 19.jpg 998.jpg 998.jpg 998.jpg 998.jpg 998.jpg 998.jpg 998.jpg 998.jpg 998.jpg 998.jpg 
+METHOD: (OpenCV) Bhattacharyya Metric
+QUERY: 19.jpg 912.jpg 912.jpg 912.jpg 912.jpg 912.jpg 912.jpg 912.jpg 912.jpg 912.jpg 912.jpg 
+TESTING: ../../tests/testgrayscale
+METHOD: (OpenCV) Correlation Metric
+QUERY: 2.jpg 912.jpg 912.jpg 912.jpg 912.jpg 912.jpg 912.jpg 912.jpg 912.jpg 912.jpg 912.jpg 
+METHOD: (OpenCV) Chi-Square Metric
+QUERY: 2.jpg 991.jpg 991.jpg 991.jpg 991.jpg 991.jpg 991.jpg 991.jpg 991.jpg 991.jpg 991.jpg 
+METHOD: (OpenCV) Intersection Metric
+QUERY: 2.jpg 998.jpg 998.jpg 998.jpg 998.jpg 998.jpg 998.jpg 998.jpg 998.jpg 998.jpg 998.jpg 
+METHOD: (OpenCV) Bhattacharyya Metric
+QUERY: 2.jpg 912.jpg 912.jpg 912.jpg 912.jpg 912.jpg 912.jpg 912.jpg 912.jpg 912.jpg 912.jpg 
+TESTING: ../../tests/testgrayscale
+METHOD: (OpenCV) Correlation Metric
+QUERY: 20.jpg 912.jpg 912.jpg 912.jpg 912.jpg 912.jpg 912.jpg 912.jpg 912.jpg 912.jpg 912.jpg 
+METHOD: (OpenCV) Chi-Square Metric
+QUERY: 20.jpg 998.jpg 998.jpg 998.jpg 998.jpg 998.jpg 998.jpg 998.jpg 998.jpg 998.jpg 998.jpg 
+METHOD: (OpenCV) Intersection Metric
+QUERY: 20.jpg 998.jpg 998.jpg 998.jpg 998.jpg 998.jpg 998.jpg 998.jpg 998.jpg 998.jpg 998.jpg 
+METHOD: (OpenCV) Bhattacharyya Metric
+QUERY: 20.jpg 912.jpg 912.jpg 912.jpg 912.jpg 912.jpg 912.jpg 912.jpg 912.jpg 912.jpg 912.jpg 
+TESTING: ../../tests/testgrayscale
+METHOD: (OpenCV) Correlation Metric
+QUERY: 3.jpg 912.jpg 912.jpg 912.jpg 912.jpg 912.jpg 912.jpg 912.jpg 912.jpg 912.jpg 912.jpg 
+METHOD: (OpenCV) Chi-Square Metric
+QUERY: 3.jpg 998.jpg 998.jpg 998.jpg 998.jpg 998.jpg 998.jpg 998.jpg 998.jpg 998.jpg 998.jpg 
+METHOD: (OpenCV) Intersection Metric
+QUERY: 3.jpg 998.jpg 998.jpg 998.jpg 998.jpg 998.jpg 998.jpg 998.jpg 998.jpg 998.jpg 998.jpg 
+METHOD: (OpenCV) Bhattacharyya Metric
+QUERY: 3.jpg 912.jpg 912.jpg 912.jpg 912.jpg 912.jpg 912.jpg 912.jpg 912.jpg 912.jpg 912.jpg 
+TESTING: ../../tests/testgrayscale
+METHOD: (OpenCV) Correlation Metric
+QUERY: 4.jpg 912.jpg 912.jpg 912.jpg 912.jpg 912.jpg 912.jpg 912.jpg 912.jpg 912.jpg 912.jpg 
+METHOD: (OpenCV) Chi-Square Metric
+QUERY: 4.jpg 998.jpg 998.jpg 998.jpg 998.jpg 998.jpg 998.jpg 998.jpg 998.jpg 998.jpg 998.jpg 
+METHOD: (OpenCV) Intersection Metric
+QUERY: 4.jpg 998.jpg 998.jpg 998.jpg 998.jpg 998.jpg 998.jpg 998.jpg 998.jpg 998.jpg 998.jpg 
+METHOD: (OpenCV) Bhattacharyya Metric
+QUERY: 4.jpg 912.jpg 912.jpg 912.jpg 912.jpg 912.jpg 912.jpg 912.jpg 912.jpg 912.jpg 912.jpg 
+TESTING: ../../tests/testgrayscale
+METHOD: (OpenCV) Correlation Metric
+QUERY: 5.jpg 912.jpg 912.jpg 912.jpg 912.jpg 912.jpg 912.jpg 912.jpg 912.jpg 912.jpg 912.jpg 
+METHOD: (OpenCV) Chi-Square Metric
+QUERY: 5.jpg 998.jpg 998.jpg 998.jpg 998.jpg 998.jpg 998.jpg 998.jpg 998.jpg 998.jpg 998.jpg 
+METHOD: (OpenCV) Intersection Metric
+QUERY: 5.jpg 998.jpg 998.jpg 998.jpg 998.jpg 998.jpg 998.jpg 998.jpg 998.jpg 998.jpg 998.jpg 
+METHOD: (OpenCV) Bhattacharyya Metric
+QUERY: 5.jpg 912.jpg 912.jpg 912.jpg 912.jpg 912.jpg 912.jpg 912.jpg 912.jpg 912.jpg 912.jpg 
+TESTING: ../../tests/testgrayscale
+METHOD: (OpenCV) Correlation Metric
+QUERY: 6.jpg 912.jpg 912.jpg 912.jpg 912.jpg 912.jpg 912.jpg 912.jpg 912.jpg 912.jpg 912.jpg 
+METHOD: (OpenCV) Chi-Square Metric
+QUERY: 6.jpg 998.jpg 998.jpg 998.jpg 998.jpg 998.jpg 998.jpg 998.jpg 998.jpg 998.jpg 998.jpg 
+METHOD: (OpenCV) Intersection Metric
+QUERY: 6.jpg 998.jpg 998.jpg 998.jpg 998.jpg 998.jpg 998.jpg 998.jpg 998.jpg 998.jpg 998.jpg 
+METHOD: (OpenCV) Bhattacharyya Metric
+QUERY: 6.jpg 912.jpg 912.jpg 912.jpg 912.jpg 912.jpg 912.jpg 912.jpg 912.jpg 912.jpg 912.jpg 
+TESTING: ../../tests/testgrayscale
+METHOD: (OpenCV) Correlation Metric
+QUERY: 7.jpg 912.jpg 912.jpg 912.jpg 912.jpg 912.jpg 912.jpg 912.jpg 912.jpg 912.jpg 912.jpg 
+METHOD: (OpenCV) Chi-Square Metric
+QUERY: 7.jpg 998.jpg 998.jpg 998.jpg 998.jpg 998.jpg 998.jpg 998.jpg 998.jpg 998.jpg 998.jpg 
+METHOD: (OpenCV) Intersection Metric
+QUERY: 7.jpg 998.jpg 998.jpg 998.jpg 998.jpg 998.jpg 998.jpg 998.jpg 998.jpg 998.jpg 998.jpg 
+METHOD: (OpenCV) Bhattacharyya Metric
+QUERY: 7.jpg 912.jpg 912.jpg 912.jpg 912.jpg 912.jpg 912.jpg 912.jpg 912.jpg 912.jpg 912.jpg 
+TESTING: ../../tests/testgrayscale
+METHOD: (OpenCV) Correlation Metric
+QUERY: 8.jpg 912.jpg 912.jpg 912.jpg 912.jpg 912.jpg 912.jpg 912.jpg 912.jpg 912.jpg 912.jpg 
+METHOD: (OpenCV) Chi-Square Metric
+QUERY: 8.jpg 998.jpg 998.jpg 998.jpg 998.jpg 998.jpg 998.jpg 998.jpg 998.jpg 998.jpg 998.jpg 
+METHOD: (OpenCV) Intersection Metric
+QUERY: 8.jpg 998.jpg 998.jpg 998.jpg 998.jpg 998.jpg 998.jpg 998.jpg 998.jpg 998.jpg 998.jpg 
+METHOD: (OpenCV) Bhattacharyya Metric
+QUERY: 8.jpg 912.jpg 912.jpg 912.jpg 912.jpg 912.jpg 912.jpg 912.jpg 912.jpg 912.jpg 912.jpg 
+TESTING: ../../tests/testgrayscale
+METHOD: (OpenCV) Correlation Metric
+QUERY: 9.jpg 912.jpg 912.jpg 912.jpg 912.jpg 912.jpg 912.jpg 912.jpg 912.jpg 912.jpg 912.jpg 
+METHOD: (OpenCV) Chi-Square Metric
+QUERY: 9.jpg 991.jpg 991.jpg 991.jpg 991.jpg 991.jpg 991.jpg 991.jpg 991.jpg 991.jpg 991.jpg 
+METHOD: (OpenCV) Intersection Metric
+QUERY: 9.jpg 998.jpg 998.jpg 998.jpg 998.jpg 998.jpg 998.jpg 998.jpg 998.jpg 998.jpg 998.jpg 
+METHOD: (OpenCV) Bhattacharyya Metric
+QUERY: 9.jpg 912.jpg 912.jpg 912.jpg 912.jpg 912.jpg 912.jpg 912.jpg 912.jpg 912.jpg 912.jpg 

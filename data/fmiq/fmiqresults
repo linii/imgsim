@@ -1,0 +1,130 @@
+RESULTS OF TEST:  tests/test
+
+METHOD:  Fast Multiresolution Image Querying
+	Correct:  ['1.jpg', '10.jpg', '11.jpg', '12.jpg', '13.jpg', '14.jpg', '15.jpg', '16.jpg', '17.jpg', '18.jpg', '19.jpg', '2.jpg', '20.jpg', '3.jpg', '4.jpg', '5.jpg', '6.jpg', '7.jpg', '8.jpg', '9.jpg']
+	Sum:  20 / 20 1
+
+	Somewhat correct:  []
+	Sum:  0 / 20 0
+
+	Nowhere to be found:  []
+	Sum:  0 / 20 0
+OVERALL CORRECT:  20 / 20 1
+
+RESULTS OF TEST:  tests/testaspectratio
+
+METHOD:  Fast Multiresolution Image Querying
+	Correct:  ['11.jpg', '14.jpg', '15.jpg', '17.jpg', '18.jpg', '2.jpg', '20.jpg', '3.jpg', '4.jpg', '5.jpg', '6.jpg', '7.jpg', '8.jpg']
+	Sum:  13 / 20 0
+
+	Somewhat correct:  [('12.jpg', 2), ('19.jpg', 4), ('13.jpg', 6), ('10.jpg', 10), ('16.jpg', 10)]
+	Sum:  5 / 20 0
+
+	Nowhere to be found:  ['1.jpg', '9.jpg']
+	Sum:  2 / 20 0
+OVERALL CORRECT:  18 / 20 0
+
+RESULTS OF TEST:  tests/testcontrast
+
+METHOD:  Fast Multiresolution Image Querying
+	Correct:  ['1.jpg', '10.jpg', '11.jpg', '12.jpg', '13.jpg', '14.jpg', '15.jpg', '16.jpg', '17.jpg', '18.jpg', '19.jpg', '2.jpg', '20.jpg', '3.jpg', '4.jpg', '5.jpg', '6.jpg', '7.jpg', '8.jpg', '9.jpg']
+	Sum:  20 / 20 1
+
+	Somewhat correct:  []
+	Sum:  0 / 20 0
+
+	Nowhere to be found:  []
+	Sum:  0 / 20 0
+OVERALL CORRECT:  20 / 20 1
+
+RESULTS OF TEST:  tests/testcrop
+
+METHOD:  Fast Multiresolution Image Querying
+	Correct:  []
+	Sum:  0 / 20 0
+
+	Somewhat correct:  []
+	Sum:  0 / 20 0
+
+	Nowhere to be found:  ['1.jpg', '10.jpg', '11.jpg', '12.jpg', '13.jpg', '14.jpg', '15.jpg', '16.jpg', '17.jpg', '18.jpg', '19.jpg', '2.jpg', '20.jpg', '3.jpg', '4.jpg', '5.jpg', '6.jpg', '7.jpg', '8.jpg', '9.jpg']
+	Sum:  20 / 20 1
+OVERALL CORRECT:  0 / 20 0
+
+RESULTS OF TEST:  tests/testhue
+
+METHOD:  Fast Multiresolution Image Querying
+	Correct:  ['1.jpg', '10.jpg', '11.jpg', '12.jpg', '13.jpg', '14.jpg', '15.jpg', '16.jpg', '17.jpg', '18.jpg', '19.jpg', '2.jpg', '20.jpg', '4.jpg', '5.jpg', '6.jpg', '7.jpg', '8.jpg', '9.jpg']
+	Sum:  19 / 20 0
+
+	Somewhat correct:  [('3.jpg', 8)]
+	Sum:  1 / 20 0
+
+	Nowhere to be found:  []
+	Sum:  0 / 20 0
+OVERALL CORRECT:  20 / 20 1
+
+RESULTS OF TEST:  tests/testpaint
+
+METHOD:  Fast Multiresolution Image Querying
+	Correct:  ['1.jpg', '10.jpg', '11.jpg', '12.jpg', '13.jpg', '14.jpg', '15.jpg', '16.jpg', '17.jpg', '18.jpg', '19.jpg', '2.jpg', '20.jpg', '3.jpg', '4.jpg', '5.jpg', '6.jpg', '7.jpg', '8.jpg', '9.jpg']
+	Sum:  20 / 20 1
+
+	Somewhat correct:  []
+	Sum:  0 / 20 0
+
+	Nowhere to be found:  []
+	Sum:  0 / 20 0
+OVERALL CORRECT:  20 / 20 1
+
+RESULTS OF TEST:  tests/testresizedown
+
+METHOD:  Fast Multiresolution Image Querying
+	Correct:  ['11.jpg', '12.jpg', '14.jpg', '15.jpg', '16.jpg', '17.jpg', '18.jpg', '2.jpg', '20.jpg', '3.jpg', '4.jpg', '5.jpg', '7.jpg', '8.jpg']
+	Sum:  14 / 20 0
+
+	Somewhat correct:  [('1.jpg', 2), ('6.jpg', 2), ('19.jpg', 4), ('10.jpg', 7)]
+	Sum:  4 / 20 0
+
+	Nowhere to be found:  ['13.jpg', '9.jpg']
+	Sum:  2 / 20 0
+OVERALL CORRECT:  18 / 20 0
+
+RESULTS OF TEST:  tests/testresizeup
+
+METHOD:  Fast Multiresolution Image Querying
+	Correct:  ['1.jpg', '11.jpg', '12.jpg', '13.jpg', '14.jpg', '15.jpg', '16.jpg', '17.jpg', '18.jpg', '2.jpg', '20.jpg', '3.jpg', '4.jpg', '5.jpg', '6.jpg', '7.jpg', '8.jpg', '9.jpg']
+	Sum:  18 / 20 0
+
+	Somewhat correct:  [('19.jpg', 2), ('10.jpg', 3)]
+	Sum:  2 / 20 0
+
+	Nowhere to be found:  []
+	Sum:  0 / 20 0
+OVERALL CORRECT:  20 / 20 1
+
+RESULTS OF TEST:  tests/testrotate
+
+METHOD:  Fast Multiresolution Image Querying
+	Correct:  []
+	Sum:  0 / 20 0
+
+	Somewhat correct:  []
+	Sum:  0 / 20 0
+
+	Nowhere to be found:  ['1.jpg', '10.jpg', '11.jpg', '12.jpg', '13.jpg', '14.jpg', '15.jpg', '16.jpg', '17.jpg', '18.jpg', '19.jpg', '2.jpg', '20.jpg', '3.jpg', '4.jpg', '5.jpg', '6.jpg', '7.jpg', '8.jpg', '9.jpg']
+	Sum:  20 / 20 1
+OVERALL CORRECT:  0 / 20 0
+
+RESULTS OF TEST:  tests/testtintred
+
+METHOD:  Fast Multiresolution Image Querying
+	Correct:  ['1.jpg', '10.jpg', '11.jpg', '12.jpg', '13.jpg', '14.jpg', '15.jpg', '16.jpg', '17.jpg', '18.jpg', '19.jpg', '2.jpg', '20.jpg', '3.jpg', '4.jpg', '5.jpg', '6.jpg', '7.jpg', '8.jpg', '9.jpg']
+	Sum:  20 / 20 1
+
+	Somewhat correct:  []
+	Sum:  0 / 20 0
+
+	Nowhere to be found:  []
+	Sum:  0 / 20 0
+OVERALL CORRECT:  20 / 20 1
+

@@ -1,0 +1,22 @@
+TESTING:  tests/testaspectratio
+METHOD: Fast Multiresolution Image Querying
+QUERY:  1.jpg   930.jpg   144.jpg   1809.jpg   3114.jpg   956.jpg   2862.jpg   1086.jpg   708.jpg   1309.jpg   2111.jpg   METHOD: Fast Multiresolution Image Querying
+QUERY:  10.jpg   1312.jpg   2863.jpg   1313.jpg   1314.jpg   1317.jpg   3148.jpg   981.jpg   2014.jpg   3447.jpg   489.jpg   METHOD: Fast Multiresolution Image Querying
+QUERY:  11.jpg   6.jpg   2020.jpg   1785.jpg   325.jpg   2309.jpg   400.jpg   234.jpg   2870.jpg   2724.jpg   3375.jpg   METHOD: Fast Multiresolution Image Querying
+QUERY:  12.jpg   2820.jpg   1208.jpg   1692.jpg   900.jpg   1406.jpg   3055.jpg   346.jpg   2889.jpg   2468.jpg   1779.jpg   METHOD: Fast Multiresolution Image Querying
+QUERY:  13.jpg   166.jpg   700.jpg   1295.jpg   3337.jpg   773.jpg   765.jpg   1724.jpg   824.jpg   5.jpg   1647.jpg   METHOD: Fast Multiresolution Image Querying
+QUERY:  14.jpg   130.jpg   2212.jpg   2563.jpg   2571.jpg   2628.jpg   1491.jpg   108.jpg   1403.jpg   914.jpg   1931.jpg   METHOD: Fast Multiresolution Image Querying
+QUERY:  15.jpg   1399.jpg   1624.jpg   1633.jpg   851.jpg   1088.jpg   2689.jpg   2441.jpg   1785.jpg   1852.jpg   3065.jpg   METHOD: Fast Multiresolution Image Querying
+QUERY:  16.jpg   2126.jpg   3350.jpg   573.jpg   3236.jpg   62.jpg   856.jpg   3.jpg   331.jpg   2939.jpg   1629.jpg   METHOD: Fast Multiresolution Image Querying
+QUERY:  17.jpg   1734.jpg   2541.jpg   2333.jpg   2645.jpg   3255.jpg   2116.jpg   2754.jpg   3324.jpg   2159.jpg   1295.jpg   METHOD: Fast Multiresolution Image Querying
+QUERY:  18.jpg   2015.jpg   752.jpg   2516.jpg   3283.jpg   593.jpg   2366.jpg   2613.jpg   42.jpg   1827.jpg   298.jpg   METHOD: Fast Multiresolution Image Querying
+QUERY:  19.jpg   1295.jpg   737.jpg   1309.jpg   2095.jpg   1191.jpg   2922.jpg   2286.jpg   325.jpg   235.jpg   2474.jpg   METHOD: Fast Multiresolution Image Querying
+QUERY:  2.jpg   2426.jpg   928.jpg   1187.jpg   1936.jpg   2574.jpg   791.jpg   627.jpg   899.jpg   2114.jpg   1096.jpg   METHOD: Fast Multiresolution Image Querying
+QUERY:  20.jpg   2399.jpg   3175.jpg   3171.jpg   1195.jpg   2381.jpg   1866.jpg   762.jpg   1507.jpg   3259.jpg   3493.jpg   METHOD: Fast Multiresolution Image Querying
+QUERY:  3.jpg   2779.jpg   3456.jpg   1479.jpg   201.jpg   3062.jpg   3348.jpg   1592.jpg   2551.jpg   1912.jpg   1559.jpg   METHOD: Fast Multiresolution Image Querying
+QUERY:  4.jpg   2794.jpg   1568.jpg   38.jpg   3362.jpg   2119.jpg   559.jpg   871.jpg   202.jpg   2023.jpg   2206.jpg   METHOD: Fast Multiresolution Image Querying
+QUERY:  5.jpg   3098.jpg   1513.jpg   3374.jpg   1961.jpg   610.jpg   3166.jpg   2865.jpg   1591.jpg   2854.jpg   1920.jpg   METHOD: Fast Multiresolution Image Querying
+QUERY:  6.jpg   3135.jpg   1045.jpg   2118.jpg   559.jpg   1337.jpg   260.jpg   3408.jpg   1192.jpg   3387.jpg   2914.jpg   METHOD: Fast Multiresolution Image Querying
+QUERY:  7.jpg   3458.jpg   2855.jpg   2027.jpg   537.jpg   545.jpg   1074.jpg   2181.jpg   3465.jpg   2876.jpg   1534.jpg   METHOD: Fast Multiresolution Image Querying
+QUERY:  8.jpg   3485.jpg   364.jpg   2164.jpg   985.jpg   2037.jpg   1401.jpg   2834.jpg   91.jpg   296.jpg   1756.jpg   METHOD: Fast Multiresolution Image Querying
+QUERY:  9.jpg   1643.jpg   3370.jpg   240.jpg   2899.jpg   297.jpg   2424.jpg   1147.jpg   2303.jpg   3193.jpg   527.jpg  

@@ -13,9 +13,15 @@ opencv2/highgui/highgui.hpp
 /Users/SEXY/documents/backend/imglib/src/opencv/opencv2/highgui/highgui.hpp
 opencv2/imgproc/imgproc.hpp
 /Users/SEXY/documents/backend/imglib/src/opencv/opencv2/imgproc/imgproc.hpp
+stdio.h
+-
+string
+-
 iostream
 -
-stdio.h
+typeinfo
+-
+map
 -
 boost/filesystem.hpp
 -

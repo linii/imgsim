@@ -1,12 +1,28 @@
-# imglib: image similarity algorithm compendium 
-
-(also backend to CryptoDraw project for CPSC479) 
+# imglib: an image similarity algorithm compendium 
 
 A library of fast (ish) image similarity algorithms! 
-(and the dataset for evaluating them)
+(and one dataset for evaluating them)
 
-Source of images: favorites gallery of prominent artist on dA 
+Source of images: 
+favorites gallery of prominent artist on dA 
 - chosen because she has similar visual taste--would be representative of most styles that we are likely to see in people using this extension 
+
+### Original code & work (guide to directory layout)
+- src/fmiq
+    - fmiq.py:
+    - fmiq-process.py 
+- src/opencv 
+    - histogram.cpp 
+    - CMakeLists.txt (getting this to build the right Makefile was not easy)
+- src/phash
+    - phash.c 
+    - phash-process.c
+- src/analytics
+    - process.py
+- data
+    - /opencv, /phash, /fmiq: results of data from runs 
+- tests 
+    - all folders here created through image manipulation 
 
 ### Requirements & dependencies (to be expanded)
 - openCV 
@@ -68,15 +84,14 @@ Source of images: favorites gallery of prominent artist on dA
     - solution to exporting signature data: write to file in a specific format
 - now both phash and fimq are ready for data collection
 
+###### Monday (worked 9 hours)
+- get Boost working and compile the thing 
+- debug the program 
+- wrote a program to process output
+- analyzed and wrote evaluations for fmiq and opencv
+- collected data for fmiq and opencv 
+
 ###### TODO: 
 - pHash: 
     - fix sorting function
     - evaluations
-- openCV: 
-    - get Boost working and compile the thing 
-    - debug the program 
-    - evaluations 
-- fimq: 
-    - evaluations
-- overarching question: want to store signatures of some sort 
-    - for C: stored in file. really bad but whatever
