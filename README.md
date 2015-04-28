@@ -90,8 +90,12 @@ favorites gallery of prominent artist on dA
 - wrote a program to process output
 - analyzed and wrote evaluations for fmiq and opencv
 - collected data for fmiq and opencv 
+- analyzed data for fmiq and opencv 
+- wrote most of presentation
 
 ###### TODO: 
 - pHash: 
     - fix sorting function
     - evaluations
+- memory concerns
+- other filters
