@@ -1,0 +1,22 @@
+TESTING: tests/testrotate
+METHOD: DCT Image Hash
+QUERY: 1.jpg 1436.jpg	 3432.jpg	 3111.jpg	 1349.jpg	 57.jpg	 1417.jpg	 1833.jpg	 2431.jpg	 535.jpg	 1119.jpg	METHOD: DCT Image Hash
+QUERY: 10.jpg 1573.jpg	 3101.jpg	 3288.jpg	 1918.jpg	 3180.jpg	 503.jpg	 1422.jpg	 671.jpg	 1938.jpg	 1513.jpg	METHOD: DCT Image Hash
+QUERY: 11.jpg 2899.jpg	 667.jpg	 3045.jpg	 3011.jpg	 1991.jpg	 1122.jpg	 2156.jpg	 1762.jpg	 167.jpg	 2842.jpg	METHOD: DCT Image Hash
+QUERY: 12.jpg 2085.jpg	 931.jpg	 926.jpg	 14.jpg	 276.jpg	 1408.jpg	 2119.jpg	 2716.jpg	 756.jpg	 2437.jpg	METHOD: DCT Image Hash
+QUERY: 13.jpg 3185.jpg	 2810.jpg	 318.jpg	 3253.jpg	 1507.jpg	 384.jpg	 1864.jpg	 1609.jpg	 297.jpg	 3298.jpg	METHOD: DCT Image Hash
+QUERY: 14.jpg 1259.jpg	 656.jpg	 2149.jpg	 2088.jpg	 3334.jpg	 503.jpg	 2592.jpg	 2565.jpg	 2438.jpg	 2619.jpg	METHOD: DCT Image Hash
+QUERY: 15.jpg 466.jpg	 2152.jpg	 916.jpg	 1158.jpg	 3386.jpg	 305.jpg	 1350.jpg	 97.jpg	 1223.jpg	 128.jpg	METHOD: DCT Image Hash
+QUERY: 16.jpg 2148.jpg	 1410.jpg	 2680.jpg	 2919.jpg	 516.jpg	 214.jpg	 1519.jpg	 1168.jpg	 1531.jpg	 2104.jpg	METHOD: DCT Image Hash
+QUERY: 17.jpg 2330.jpg	 2207.jpg	 3238.jpg	 754.jpg	 1959.jpg	 389.jpg	 2682.jpg	 2141.jpg	 1958.jpg	 3443.jpg	METHOD: DCT Image Hash
+QUERY: 18.jpg 1678.jpg	 2304.jpg	 2489.jpg	 2435.jpg	 905.jpg	 1136.jpg	 1790.jpg	 2570.jpg	 2226.jpg	 2732.jpg	METHOD: DCT Image Hash
+QUERY: 19.jpg 2354.jpg	 3272.jpg	 2265.jpg	 2636.jpg	 2562.jpg	 1550.jpg	 2002.jpg	 1494.jpg	 2519.jpg	 628.jpg	METHOD: DCT Image Hash
+QUERY: 2.jpg 698.jpg	 2840.jpg	 614.jpg	 510.jpg	 3317.jpg	 2110.jpg	 2104.jpg	 2470.jpg	 1322.jpg	 1913.jpg	METHOD: DCT Image Hash
+QUERY: 20.jpg 1407.jpg	 498.jpg	 1787.jpg	 2081.jpg	 3473.jpg	 1297.jpg	 1902.jpg	 826.jpg	 1966.jpg	 1408.jpg	METHOD: DCT Image Hash
+QUERY: 3.jpg 2934.jpg	 2317.jpg	 1740.jpg	 1196.jpg	 546.jpg	 2179.jpg	 1459.jpg	 375.jpg	 1429.jpg	 1033.jpg	METHOD: DCT Image Hash
+QUERY: 4.jpg 1577.jpg	 2302.jpg	 1222.jpg	 808.jpg	 1048.jpg	 1623.jpg	 3225.jpg	 475.jpg	 1526.jpg	 1386.jpg	METHOD: DCT Image Hash
+QUERY: 5.jpg 2587.jpg	 3494.jpg	 1406.jpg	 1348.jpg	 3079.jpg	 1525.jpg	 2218.jpg	 3291.jpg	 675.jpg	 229.jpg	METHOD: DCT Image Hash
+QUERY: 6.jpg 493.jpg	 849.jpg	 329.jpg	 1375.jpg	 1277.jpg	 2726.jpg	 1508.jpg	 1326.jpg	 2299.jpg	 3327.jpg	METHOD: DCT Image Hash
+QUERY: 7.jpg 433.jpg	 1665.jpg	 3343.jpg	 555.jpg	 2796.jpg	 471.jpg	 722.jpg	 3166.jpg	 2904.jpg	 1668.jpg	METHOD: DCT Image Hash
+QUERY: 8.jpg 167.jpg	 519.jpg	 1986.jpg	 1822.jpg	 3193.jpg	 2842.jpg	 3194.jpg	 2473.jpg	 2334.jpg	 1254.jpg	METHOD: DCT Image Hash
+QUERY: 9.jpg 441.jpg	 2522.jpg	 3249.jpg	 531.jpg	 858.jpg	 1517.jpg	 1922.jpg	 1339.jpg	 1774.jpg	 3013.jpg	

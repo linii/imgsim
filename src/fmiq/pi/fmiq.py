@@ -2,6 +2,8 @@
 Fast Multiresolution Image Querying implementation
 Signature generation program
 
+python fmiq.py [ source image directory ]
+
 Requirements:
     - all imgs in current folder should be in jpg form
     - and in RGB colorspace

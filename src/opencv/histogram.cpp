@@ -1,6 +1,11 @@
 // Wrapper program for openCV histogram comparison
 // Called in the following format
-// ./hist [ query directory ] [ img directory ] [ number of results ]
+// ./hist [ query directory ] [ img directory ] [ number of top results ]
+//
+// Lining Wang
+// 4/28/2015
+//
+// Source: http://docs.opencv.org/doc/tutorials/imgproc/histograms/histogram_comparison/histogram_comparison.html
 
 
 #include "opencv2/imgcodecs.hpp"

@@ -1,28 +1,43 @@
 # imglib: an image similarity algorithm compendium 
 
-A library of fast (ish) image similarity algorithms! 
-(and one dataset for evaluating them)
+A library of fast(ish) image similarity algorithms! 
 
-Source of images: 
-favorites gallery of prominent artist on dA 
+**Source of images:** favorites gallery of prominent artist on dA 
 - chosen because she has similar visual taste--would be representative of most styles that we are likely to see in people using this extension 
 
 ### Original code & work (guide to directory layout)
-- src/fmiq
-    - fmiq.py:
-    - fmiq-process.py 
-- src/opencv 
-    - histogram.cpp 
+- **src/fmiq**
+    - **fmiq.py:** implements the fast multiresolution querying algorithm (see paper/ directory)
+    - **fmiq-process.py:** parses the output of fmiq on the source images and queries with test images 
+- **src/opencv** 
+    - **histogram.cpp:** wrapper around four opencv measures, as well as their queries
+        - how to build: run make 
     - CMakeLists.txt (getting this to build the right Makefile was not easy)
-- src/phash
-    - phash.c 
-    - phash-process.c
-- src/analytics
-    - process.py
-- data
-    - /opencv, /phash, /fmiq: results of data from runs 
-- tests 
-    - all folders here created through image manipulation 
+- **src/phash**
+    - **phash.c**: wrapper around phash library (located in lib). generates perceptual hashes of everything in source image directory   
+        - compatible with radial hashing, DCT hashing
+        - how to build: g++ -c phash.c ; g++ -o phash phash.c main.o => generates executable **phash**
+    - **phash-process.c**: processes the output of phash.c; scores all test images and assigns relative distances 
+        - how to build: g++ -c phash-process.c ; g++ -o process phash-process.c main.o => generates executable **process** 
+- **src/analytics**
+    - **process.py** all purpose tool for evaluating the accuracy of the algorithms above
+- **data/**
+    - **data/opencv**
+        - all: results of algorithm on 10 different test data sets 
+        - opencvresults: output  of process.py on those files 
+        - opencv.md: some data consolidation analysis
+    - **data/phash**
+        - radial/: results of radial hashing algorithm on 10 different test data sets 
+        - dct/: results of dct hashing algorithm on 10 different test data sets 
+        - radishresults: output of process.py on radial/ 
+        - dctresults: results of process.py on dct/
+        - phash.md: some data consolidation and analysis
+    - **data/fmiq**
+        - all: results of algorithm on 10 different test data sets 
+        - fmiqresults: output of process.py on those files 
+        - fimq.md: some data consolidation and analysis
+- **tests/**: directories of test data set after various small digital modifications
+    - all folders here created through image manipulation by **imagemagick**command line tool 
 
 ### Requirements & dependencies (to be expanded)
 - openCV 
@@ -95,8 +110,9 @@ favorites gallery of prominent artist on dA
 
 ###### Tuesday (worked 4 hours)
 - fixed pHash 
-- conducted evaluations
+- conducted pHash evaluations
 
-###### TODO: 
-- memory concerns
-- other filters
+###### Wednesday (worked 3.5 hours)
+- implemented radial hashing 
+- evaluated radial hashing results 
+- cleaned up and documented code

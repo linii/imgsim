@@ -1,5 +1,8 @@
+// Part 2 of the utility wrapper for the pHash library
+// All source code from: http://www.phash.org/
+//
 // Call this executable like this:
-// ./process [ data file ] [ flag ] [ query dir 1 ] [ query dir 2 ] [ ... ]
+// ./process [ data file ] [ flag ] [ timing flag ] [ query dir1 ] [ query dir2 ] [ ... ]
 //
 // Where:
 //  - data file: output of hash algorithm in the form
@@ -8,7 +11,12 @@
 //      F [ filename ]
 //      [ ... ]
 //  - flag: 1 if DCT hash output file, 0 if radial hash output file
-//  - test dir 1: links to query directories
+//  - timing flag:
+//  - test dir [#]: links to directories containing files you want to compare
+//      to the images in the data file
+//
+// Lining Wang
+// 4/29/2015
 
 #include <stdio.h>
 #include <stdint.h>
@@ -17,16 +25,15 @@
 #include <string.h>
 #include <libgen.h>
 #include <dirent.h>
-#include "pHash.h"
 #include <assert.h>
 #include <inttypes.h>
 #include <time.h>
 
-// #define SCNu8 "hhu"
+#include "lib/pHash.h"
 
-typedef unsigned long long ulong64;
+typedef unsigned long long ulong64;     // matches pHash specification
 
-typedef struct hash {
+typedef struct hash {                   // Really sad data structure for containing info :(
     char * name;
     ulong64 hash1;
     struct ph_digest * hash2;
@@ -34,13 +41,8 @@ typedef struct hash {
     double d2;
 } * Hash;
 
-// typedef struct ph_digest {
-//     char *id;                   //hash id
-//     uint8_t *coeffs;            //the head of the digest integer coefficient array
-//     int size;                   //the size of the coeff array
-// } Digest;
 
-
+// 0 is perfect match
 int compareDCT (const void * arg1, const void * arg2) {
     int l = ((Hash)arg1)->d1;
     int r = ((Hash)arg2)->d1;
@@ -51,21 +53,20 @@ int compareDCT (const void * arg1, const void * arg2) {
     return 0;
 }
 
+// 1 is perfect match
 int compareRadial (const void * arg1, const void * arg2) {
     double l = ((Hash)arg1)->d2;
     double r = ((Hash)arg2)->d2;
-    if (l < r) {
+    if (l < r)
         return 1;
-    }
-    else if (l > r) {
+    else if (l > r)
         return -1;
-    }
     return 0;
 }
 
 
 int main(int argc, char ** argv) {
-    int datasetSize = 350;
+    int datasetSize = 350;      // specific to my dataset
     int numDataSets = 10;
 
     struct dirent *dp;
@@ -127,9 +128,9 @@ int main(int argc, char ** argv) {
         }
         index++;
     }
-
-    bool timer = argv[3];
-    float times[numDataSets];
+    // printf("FINISHED PROCESSING FILES\n");
+    bool timer = atoi(argv[3]);
+    unsigned long times[numDataSets];
 
     for (int i = 4; i < argc; i++) {
         char * queries = argv[i];
@@ -140,6 +141,7 @@ int main(int argc, char ** argv) {
             return 0;
         }
         int numFiles = 0;
+
         // read in queries and calculates closest distances
         while ((dp = readdir(q)) != NULL) {
             numFiles++;
@@ -155,7 +157,6 @@ int main(int argc, char ** argv) {
 
             strcat(path, "/");
             char * name =  strcat(path, dp->d_name);
-            // printf("PROCESSING , %s\n", dp->d_name);
 
             Hash distances, radialdistances;
             ulong64 basehash;
@@ -189,6 +190,7 @@ int main(int argc, char ** argv) {
                 else
                     qsort(radialdistances, index, sizeof(struct hash), compareRadial);
 
+                printf("QUERY: %s", basename(dp->d_name));
                 for (int i = 0; i < index && i < 10; i++) {
                     if (flag)
                         printf(" %s\t", distances[i].name);
@@ -196,46 +198,45 @@ int main(int argc, char ** argv) {
                         printf(" %s\t", radialdistances[i].name);
                 }
             }
-            else {
+            else { // experimental timing section.. doesn't work yet
                 for (int i = 0; i < numDataSets; i++) {
                     double pcc;
-                    int msec;
+                    double msec;
+                    clock_t start_t, end_t, total_t;
                     if (flag) {
-                        clock_t start = clock(), diff;
-                        for (int j = 0; j < i * datasetSize && j < index; i++) {
+                        unsigned long start = clock();
+                        for (int j = 0; j < i * datasetSize && j < index; j++) {
                             ph_hamming_distance(basehash, hashes[j].hash1);
                         }
-                        diff = clock() - start;
+                        unsigned long diff = clock() - start;
                         msec = diff * 1000 / CLOCKS_PER_SEC;
                     }
                     else {
-                        clock_t start = clock(), diff;
-                        for (int j = 0; j < i * datasetSize && j < index; i++) {
+                        unsigned long start = clock();
+                        for (int j = 0; j < i * datasetSize && j < index; j++) {
                             ph_crosscorr(radialbasehash, *radialhashes[j].hash2, pcc, threshold);
                         }
-                        diff = clock() - start;
-                        msec = diff * 1000 / CLOCKS_PER_SEC;
+                        unsigned long diff = clock() - start;
+                        msec = (diff * 1000) / CLOCKS_PER_SEC;
                     }
-                    times[i] += msec/1000;
+                    times[i] += msec / 1000;
                 }
-
             }
             printf("\n");
             free(distances);
             free(radialdistances);
             free(path);
         }
+
         if (flag)
             printf("METHOD: DCT Hash");
-        else {
+        else
             printf("METHOD: Radial Hash");
-        }
 
         for (int i = 0; i < numDataSets; i++) {
-            printf("Set of size %d took: %f\n", i * datasetSize, times[i] / numFiles);
+            printf("Set of size %d took: %lu\n", (i + 1) * datasetSize, times[i] / numFiles);
         }
     }
-
     free(hashes);
     free(radialhashes);
 
