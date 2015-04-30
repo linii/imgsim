@@ -93,9 +93,10 @@ favorites gallery of prominent artist on dA
 - analyzed data for fmiq and opencv 
 - wrote most of presentation
 
+###### Tuesday (worked 4 hours)
+- fixed pHash 
+- conducted evaluations
+
 ###### TODO: 
-- pHash: 
-    - fix sorting function
-    - evaluations
 - memory concerns
 - other filters

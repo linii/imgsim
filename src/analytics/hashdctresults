@@ -1,0 +1,143 @@
+RESULTS OF TEST:  tests/test
+
+METHOD:  RADISH (Radial Image Hash)
+	Correct:  ['1.jpg', '10.jpg', '11.jpg', '13.jpg', '14.jpg', '15.jpg', '16.jpg', '17.jpg', '18.jpg', '19.jpg', '2.jpg', '20.jpg', '3.jpg', '4.jpg', '5.jpg', '6.jpg', '7.jpg', '8.jpg', '9.jpg']
+	Sum:  19 / 20 0
+
+	Somewhat correct:  []
+	Sum:  0 / 20 0
+
+	Nowhere to be found:  ['12.jpg']
+	Sum:  1 / 20 0
+OVERALL CORRECT:  19 / 20 0
+
+RESULTS OF TEST:  tests/testaspectratio
+
+METHOD:  RADISH (Radial Image Hash)
+	Correct:  ['15.jpg', '19.jpg']
+	Sum:  2 / 20 0
+
+	Somewhat correct:  [('13.jpg', 7), ('16.jpg', 10)]
+	Sum:  2 / 20 0
+
+	Nowhere to be found:  ['1.jpg', '10.jpg', '11.jpg', '12.jpg', '14.jpg', '17.jpg', '18.jpg', '2.jpg', '20.jpg', '3.jpg', '4.jpg', '5.jpg', '6.jpg', '7.jpg', '8.jpg', '9.jpg']
+	Sum:  16 / 20 0
+OVERALL CORRECT:  4 / 20 0
+
+RESULTS OF TEST:  tests/testcontrast
+
+METHOD:  RADISH (Radial Image Hash)
+	Correct:  ['1.jpg', '10.jpg', '11.jpg', '13.jpg', '14.jpg', '15.jpg', '16.jpg', '17.jpg', '18.jpg', '19.jpg', '2.jpg', '20.jpg', '3.jpg', '4.jpg', '5.jpg', '6.jpg', '7.jpg', '8.jpg', '9.jpg']
+	Sum:  19 / 20 0
+
+	Somewhat correct:  []
+	Sum:  0 / 20 0
+
+	Nowhere to be found:  ['12.jpg']
+	Sum:  1 / 20 0
+OVERALL CORRECT:  19 / 20 0
+
+RESULTS OF TEST:  tests/testcrop
+
+METHOD:  RADISH (Radial Image Hash)
+	Correct:  ['15.jpg', '19.jpg']
+	Sum:  2 / 20 0
+
+	Somewhat correct:  []
+	Sum:  0 / 20 0
+
+	Nowhere to be found:  ['1.jpg', '10.jpg', '11.jpg', '12.jpg', '13.jpg', '14.jpg', '16.jpg', '17.jpg', '18.jpg', '2.jpg', '20.jpg', '3.jpg', '4.jpg', '5.jpg', '6.jpg', '7.jpg', '8.jpg', '9.jpg']
+	Sum:  18 / 20 0
+OVERALL CORRECT:  2 / 20 0
+
+RESULTS OF TEST:  tests/testgrayscale
+
+METHOD:  RADISH (Radial Image Hash)
+	Correct:  ['1.jpg', '10.jpg', '11.jpg', '13.jpg', '14.jpg', '15.jpg', '16.jpg', '17.jpg', '18.jpg', '19.jpg', '2.jpg', '20.jpg', '3.jpg', '4.jpg', '5.jpg', '6.jpg', '7.jpg', '8.jpg', '9.jpg']
+	Sum:  19 / 20 0
+
+	Somewhat correct:  []
+	Sum:  0 / 20 0
+
+	Nowhere to be found:  ['12.jpg']
+	Sum:  1 / 20 0
+OVERALL CORRECT:  19 / 20 0
+
+RESULTS OF TEST:  tests/testhue
+
+METHOD:  RADISH (Radial Image Hash)
+	Correct:  ['1.jpg', '11.jpg', '13.jpg', '14.jpg', '15.jpg', '18.jpg', '19.jpg', '20.jpg', '3.jpg', '5.jpg', '6.jpg', '7.jpg', '8.jpg', '9.jpg']
+	Sum:  14 / 20 0
+
+	Somewhat correct:  [('17.jpg', 2), ('4.jpg', 3), ('10.jpg', 7)]
+	Sum:  3 / 20 0
+
+	Nowhere to be found:  ['12.jpg', '16.jpg', '2.jpg']
+	Sum:  3 / 20 0
+OVERALL CORRECT:  17 / 20 0
+
+RESULTS OF TEST:  tests/testpaint
+
+METHOD:  RADISH (Radial Image Hash)
+	Correct:  ['1.jpg', '10.jpg', '11.jpg', '13.jpg', '14.jpg', '15.jpg', '16.jpg', '17.jpg', '18.jpg', '19.jpg', '2.jpg', '20.jpg', '3.jpg', '4.jpg', '5.jpg', '6.jpg', '7.jpg', '8.jpg', '9.jpg']
+	Sum:  19 / 20 0
+
+	Somewhat correct:  []
+	Sum:  0 / 20 0
+
+	Nowhere to be found:  ['12.jpg']
+	Sum:  1 / 20 0
+OVERALL CORRECT:  19 / 20 0
+
+RESULTS OF TEST:  tests/testresizedown
+
+METHOD:  RADISH (Radial Image Hash)
+	Correct:  ['1.jpg', '10.jpg', '11.jpg', '13.jpg', '14.jpg', '15.jpg', '16.jpg', '17.jpg', '18.jpg', '19.jpg', '2.jpg', '20.jpg', '3.jpg', '4.jpg', '5.jpg', '6.jpg', '7.jpg', '8.jpg', '9.jpg']
+	Sum:  19 / 20 0
+
+	Somewhat correct:  []
+	Sum:  0 / 20 0
+
+	Nowhere to be found:  ['12.jpg']
+	Sum:  1 / 20 0
+OVERALL CORRECT:  19 / 20 0
+
+RESULTS OF TEST:  tests/testresizeup
+
+METHOD:  RADISH (Radial Image Hash)
+	Correct:  ['1.jpg', '10.jpg', '11.jpg', '13.jpg', '14.jpg', '15.jpg', '16.jpg', '17.jpg', '18.jpg', '19.jpg', '2.jpg', '20.jpg', '3.jpg', '4.jpg', '5.jpg', '6.jpg', '7.jpg', '8.jpg', '9.jpg']
+	Sum:  19 / 20 0
+
+	Somewhat correct:  []
+	Sum:  0 / 20 0
+
+	Nowhere to be found:  ['12.jpg']
+	Sum:  1 / 20 0
+OVERALL CORRECT:  19 / 20 0
+
+RESULTS OF TEST:  tests/testrotate
+
+METHOD:  RADISH (Radial Image Hash)
+	Correct:  []
+	Sum:  0 / 20 0
+
+	Somewhat correct:  []
+	Sum:  0 / 20 0
+
+	Nowhere to be found:  ['1.jpg', '10.jpg', '11.jpg', '12.jpg', '13.jpg', '14.jpg', '15.jpg', '16.jpg', '17.jpg', '18.jpg', '19.jpg', '2.jpg', '20.jpg', '3.jpg', '4.jpg', '5.jpg', '6.jpg', '7.jpg', '8.jpg', '9.jpg']
+	Sum:  20 / 20 1
+OVERALL CORRECT:  0 / 20 0
+
+RESULTS OF TEST:  tests/testtintred
+
+METHOD:  RADISH (Radial Image Hash)
+	Correct:  ['1.jpg', '10.jpg', '11.jpg', '13.jpg', '14.jpg', '15.jpg', '16.jpg', '17.jpg', '18.jpg', '19.jpg', '2.jpg', '20.jpg', '3.jpg', '4.jpg', '5.jpg', '6.jpg', '7.jpg', '8.jpg', '9.jpg']
+	Sum:  19 / 20 0
+
+	Somewhat correct:  []
+	Sum:  0 / 20 0
+
+	Nowhere to be found:  ['12.jpg']
+	Sum:  1 / 20 0
+OVERALL CORRECT:  19 / 20 0
+

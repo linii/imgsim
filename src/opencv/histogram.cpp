@@ -130,28 +130,28 @@ int main( int argc, char** argv ) {
             cout << "METHOD: (OpenCV) Correlation Metric" << endl;
             cout << "QUERY: " << filename << " ";
             for (int i = 0; i < n; i++) {
-                cout << dictcorr[corr[i]] << " ";
+                cout << dictcorr[corr[i]] << " " << corr[i]<< endl;
             }
             cout << endl;
 
             cout << "METHOD: (OpenCV) Chi-Square Metric" << endl;
             cout << "QUERY: " << filename << " ";
             for (int i = 0; i < n; i++) {
-                cout << dictchi[chi[i]] << " ";
+                cout << dictchi[chi[i]] << " " << chi[i] << endl;
             }
             cout << endl;
 
             cout << "METHOD: (OpenCV) Intersection Metric" << endl;
             cout << "QUERY: " << filename << " ";
             for (int i = 0; i < n; i++) {
-                cout << dictinter[inter[i]] << " ";
+                cout << dictinter[inter[i]] << " " << inter[i] << endl;
             }
             cout << endl;
 
             cout << "METHOD: (OpenCV) Bhattacharyya Metric" << endl;
             cout << "QUERY: " << filename << " ";
             for (int i = 0; i < n; i++) {
-                cout << dictbhat[bhat[i]] << " ";
+                cout << dictbhat[bhat[i]] << " " << bhat[i] << endl;
             }
             cout << endl;
         }

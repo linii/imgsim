@@ -1,0 +1,41 @@
+TESTING: tests/testaspectratio
+METHOD: RADISH (Radial Image Hash)
+QUERY: 1.jpg 3137.jpg    3101.jpg    0448.jpg    3130.jpg    0986.jpg    1053.jpg    2553.jpg    1657.jpg    2570.jpg    0957.jpg
+METHOD: RADISH (Radial Image Hash)
+QUERY: 10.jpg 3312.jpg   2702.jpg    3112.jpg    2863.jpg    0276.jpg    1512.jpg    0277.jpg    2496.jpg    1392.jpg    2636.jpg
+METHOD: RADISH (Radial Image Hash)
+QUERY: 11.jpg 1903.jpg   2004.jpg    1321.jpg    1485.jpg    2584.jpg    3037.jpg    2039.jpg    0058.jpg    2366.jpg    1300.jpg
+METHOD: RADISH (Radial Image Hash)
+QUERY: 12.jpg 2974.jpg   3095.jpg    2231.jpg    0513.jpg    0527.jpg    0272.jpg    0342.jpg    3480.jpg    0581.jpg    2302.jpg
+METHOD: RADISH (Radial Image Hash)
+QUERY: 13.jpg 2227.jpg   1561.jpg    1462.jpg    1216.jpg    1379.jpg    1453.jpg    3228.jpg    0631.jpg    2713.jpg    2341.jpg
+METHOD: RADISH (Radial Image Hash)
+QUERY: 14.jpg 2822.jpg   2351.jpg    3176.jpg    0195.jpg    1323.jpg    1289.jpg    0187.jpg    2293.jpg    3110.jpg    0448.jpg
+METHOD: RADISH (Radial Image Hash)
+QUERY: 15.jpg 0438.jpg   0532.jpg    1817.jpg    3263.jpg    1615.jpg    2057.jpg    2002.jpg    0825.jpg    3098.jpg    2088.jpg
+METHOD: RADISH (Radial Image Hash)
+QUERY: 16.jpg 2032.jpg   2277.jpg    1328.jpg    1150.jpg    0323.jpg    2131.jpg    0540.jpg    3463.jpg    2223.jpg    0690.jpg
+METHOD: RADISH (Radial Image Hash)
+QUERY: 17.jpg 3005.jpg   0811.jpg    1871.jpg    0277.jpg    1734.jpg    1262.jpg    1013.jpg    2010.jpg    1813.jpg    0770.jpg
+METHOD: RADISH (Radial Image Hash)
+QUERY: 18.jpg 2341.jpg   1379.jpg    1419.jpg    0940.jpg    2227.jpg    2713.jpg    1216.jpg    2194.jpg    3010.jpg    3290.jpg
+METHOD: RADISH (Radial Image Hash)
+QUERY: 19.jpg 1199.jpg   1689.jpg    0732.jpg    3440.jpg    0625.jpg    0631.jpg    3402.jpg    1453.jpg    1438.jpg    3158.jpg
+METHOD: RADISH (Radial Image Hash)
+QUERY: 2.jpg 2433.jpg    0089.jpg    2809.jpg    1147.jpg    2504.jpg    1794.jpg    1910.jpg    3339.jpg    0403.jpg    1113.jpg
+METHOD: RADISH (Radial Image Hash)
+QUERY: 20.jpg 1965.jpg   3112.jpg    0389.jpg    2270.jpg    1105.jpg    2866.jpg    1410.jpg    2182.jpg    3218.jpg    0198.jpg
+METHOD: RADISH (Radial Image Hash)
+QUERY: 3.jpg 3163.jpg    0791.jpg    1851.jpg    0647.jpg    0992.jpg    2074.jpg    2190.jpg    2213.jpg    1076.jpg    2696.jpg
+METHOD: RADISH (Radial Image Hash)
+QUERY: 4.jpg 2053.jpg    1718.jpg    2206.jpg    3120.jpg    0909.jpg    2276.jpg    3188.jpg    2498.jpg    0014.jpg    2777.jpg
+METHOD: RADISH (Radial Image Hash)
+QUERY: 5.jpg 0335.jpg    0383.jpg    0950.jpg    1296.jpg    1516.jpg    2157.jpg    0456.jpg    0566.jpg    2092.jpg    3245.jpg
+METHOD: RADISH (Radial Image Hash)
+QUERY: 6.jpg 0335.jpg    3196.jpg    0647.jpg    1382.jpg    2213.jpg    2668.jpg    0134.jpg    2223.jpg    2659.jpg    3409.jpg
+METHOD: RADISH (Radial Image Hash)
+QUERY: 7.jpg 0032.jpg    3045.jpg    3340.jpg    1391.jpg    0458.jpg    2004.jpg    0240.jpg    1227.jpg    1983.jpg    2808.jpg
+METHOD: RADISH (Radial Image Hash)
+QUERY: 8.jpg 0066.jpg    1022.jpg    2065.jpg    1755.jpg    3224.jpg    0267.jpg    0480.jpg    3286.jpg    1506.jpg    2663.jpg
+METHOD: RADISH (Radial Image Hash)
+QUERY: 9.jpg 1235.jpg    0707.jpg    2557.jpg    2808.jpg    3221.jpg    1248.jpg    0312.jpg    0417.jpg    0241.jpg    3079.jpg

@@ -67,6 +67,8 @@ def main():
 
         for line in output:
             line = line.split()
+            if not line:
+                continue
             if line[0] == "TESTING:" and " ".join(line[1:]) not in effects:
                 effects.append(" ".join(line[1:]))
             elif line[0] == "METHOD:":

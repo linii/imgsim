@@ -11,18 +11,14 @@
 //  - test dir 1: links to query directories
 
 #include <stdio.h>
+#include <dirent.h>
 #include <stdint.h>
 #include <stdlib.h>
-#include <stdbool.h>
 #include <string.h>
 #include <libgen.h>
-#include <dirent.h>
 #include "pHash.h"
 #include <assert.h>
 #include <inttypes.h>
-#include <time.h>
-
-// #define SCNu8 "hhu"
 
 typedef unsigned long long ulong64;
 
@@ -52,22 +48,17 @@ int compareDCT (const void * arg1, const void * arg2) {
 }
 
 int compareRadial (const void * arg1, const void * arg2) {
-    double l = ((Hash)arg1)->d2;
-    double r = ((Hash)arg2)->d2;
-    if (l < r) {
-        return 1;
-    }
-    else if (l > r) {
+    int l = ((Hash)arg1)->d2;
+    int r = ((Hash)arg2)->d2;
+    if (l < r)
         return -1;
-    }
+    else if (l > r)
+        return 1;
     return 0;
 }
 
 
 int main(int argc, char ** argv) {
-    int datasetSize = 350;
-    int numDataSets = 10;
-
     struct dirent *dp;
     DIR * q;
 
@@ -101,10 +92,10 @@ int main(int argc, char ** argv) {
             hashes = (Hash ) realloc(hashes, sizeof(struct hash) * size);
             radialhashes = (Hash ) realloc(radialhashes, sizeof(struct hash) * size);
         }
-
         char * filename = (char *) calloc(1, strlen(line));
         for (int i = 2, j = 0; i < strlen(line) - 1; i++, j++)
             filename[j] = line[i];
+        // printf("about to insert %s at index %d\n", filename, index);
 
         int numRead;
         if(flag) {
@@ -112,37 +103,52 @@ int main(int argc, char ** argv) {
             ulong64 hash;
             numRead = fscanf(f, "%lld\n", &hash);
             assert (numRead == 1);
+
+            // printf("read in %lld\n", hash);
             hashes[index].hash1 = hash;
         }
         else {
-            struct ph_digest * dig = static_cast<struct ph_digest * >(calloc(1, sizeof(struct ph_digest)));
-            uint8_t * coe = (uint8_t *) calloc(nb_coeffs, sizeof(uint8_t));
-            for (int i = 0; i < 40; i++)
-                numRead = fscanf(f, "%hhu", coe+i);
-
-            dig->coeffs = coe;
-            dig->size = nb_coeffs;
             radialhashes[index].name = filename;
+            struct ph_digest * dig = static_cast<struct ph_digest * >(calloc(1, sizeof(struct ph_digest)));
+
+            char * id;
+            uint8_t * coeffs;
+            int size;
+
+            numRead = fscanf(f, "%s %d\n", id, &size);
+            assert (numRead == 2);
+
+            uint8_t * coe = (uint8_t *) calloc(nb_coeffs, sizeof(uint8_t));
+
+            int numRead = getline(&line, &len, f);
+            for (int i = 0; i < nb_coeffs; i++) {
+                numRead = sscanf(line, "%" SCNu8, coe+i);
+                assert(numRead == 1);
+            }
+            char c = getchar();
+            assert(c == '\n');
+
+            for (int i = 0; i < nb_coeffs; i++)
+                 printf("%" PRIu8 " ", coe[i]);
+
+            dig->id = id;
+            dig->coeffs = coeffs;
+            dig->size = size;
             radialhashes[index].hash2 = dig;
         }
         index++;
     }
 
-    bool timer = argv[3];
-    float times[numDataSets];
-
-    for (int i = 4; i < argc; i++) {
+    for (int i = 3; i < argc; i++) {
         char * queries = argv[i];
-        printf("\nTESTING: %s\n", queries);
+        printf("TESTING: %s\n", queries);
 
         if ((q = opendir(queries)) == NULL) {
             fprintf(stderr, "Can't open %s\n", argv[i]);
             return 0;
         }
-        int numFiles = 0;
         // read in queries and calculates closest distances
         while ((dp = readdir(q)) != NULL) {
-            numFiles++;
             char str1[2] = ".";
             char str2[3] = "..";
 
@@ -157,87 +163,60 @@ int main(int argc, char ** argv) {
             char * name =  strcat(path, dp->d_name);
             // printf("PROCESSING , %s\n", dp->d_name);
 
-            Hash distances, radialdistances;
+            Hash distances = (Hash ) calloc(index, sizeof(struct hash));
+            Hash radialdistances = (Hash) calloc(index, sizeof(struct hash));
+            struct ph_digest * radialbasehash = 0;
             ulong64 basehash;
-            struct ph_digest radialbasehash;
 
             if (flag) {
-                distances = (Hash ) calloc(index, sizeof(struct hash));
                 ph_dct_imagehash(name, basehash);
             }
             else {
-                radialdistances = (Hash) calloc(index, sizeof(struct hash));
-                ph_image_digest(name, 1.0, 1.0, radialbasehash);
+                ph_image_digest(name, 1.0, 1.0, *radialbasehash, 180);
             }
 
-            double threshold = 0.8;
-            if (!timer) {
-                for (int i = 0; i < index; i++) {
-                    if (flag) {
-                        distances[i].d1 = ph_hamming_distance(basehash, hashes[i].hash1);
-                        distances[i].name = hashes[i].name;
-                    }
-                    else {
-                        double pcc;
-                        int result = ph_crosscorr(radialbasehash, *radialhashes[i].hash2, pcc, threshold);
-                        radialdistances[i].d2 = pcc;
-                        radialdistances[i].name = radialhashes[i].name;
-                    }
+            double threshold = 0.90;
+            for (int i = 0; i < index; i++) {
+                if (flag) {
+                    distances[i].d1 = ph_hamming_distance(basehash, hashes[i].hash1);
+                    distances[i].name = hashes[i].name;
                 }
-                if(flag)
-                    qsort(distances, index, sizeof(struct hash), compareDCT);
-                else
-                    qsort(radialdistances, index, sizeof(struct hash), compareRadial);
+                else {
+                    double pcc;
+                    ph_crosscorr(*radialbasehash, *radialhashes[i].hash2, pcc, threshold);
+                    radialdistances[i].d2 = pcc;
+                    radialdistances[i].name = radialhashes[i].name;
+                }
+            }
 
-                for (int i = 0; i < index && i < 10; i++) {
-                    if (flag)
-                        printf(" %s\t", distances[i].name);
-                    else
-                        printf(" %s\t", radialdistances[i].name);
-                }
+            if(flag) {
+                qsort(distances, index, sizeof(struct hash), compareDCT);
+                printf("METHOD: DCT Image Hash\n");
             }
             else {
-                for (int i = 0; i < numDataSets; i++) {
-                    double pcc;
-                    int msec;
-                    if (flag) {
-                        clock_t start = clock(), diff;
-                        for (int j = 0; j < i * datasetSize && j < index; i++) {
-                            ph_hamming_distance(basehash, hashes[j].hash1);
-                        }
-                        diff = clock() - start;
-                        msec = diff * 1000 / CLOCKS_PER_SEC;
-                    }
-                    else {
-                        clock_t start = clock(), diff;
-                        for (int j = 0; j < i * datasetSize && j < index; i++) {
-                            ph_crosscorr(radialbasehash, *radialhashes[j].hash2, pcc, threshold);
-                        }
-                        diff = clock() - start;
-                        msec = diff * 1000 / CLOCKS_PER_SEC;
-                    }
-                    times[i] += msec/1000;
-                }
-
+                // quick_sort(radialdistances, index, 0);
+                qsort(radialdistances, index, sizeof(struct hash), compareRadial);
+                printf("METHOD: RADISH (Radial Image Hash) \n");
             }
-            printf("\n");
+
+            printf("QUERY: %s", basename(dp->d_name));
+            for (int i = 0; i < index && i < 10; i++) {
+                if (flag) {
+                    printf(" %s\t", distances[i].name);
+                }
+                else {
+                    printf(" %s", radialdistances[i].name);
+                }
+            }
+            if (i != argc - 1)
+                printf("\n");
             free(distances);
             free(radialdistances);
             free(path);
         }
-        if (flag)
-            printf("METHOD: DCT Hash");
-        else {
-            printf("METHOD: Radial Hash");
-        }
-
-        for (int i = 0; i < numDataSets; i++) {
-            printf("Set of size %d took: %f\n", i * datasetSize, times[i] / numFiles);
-        }
+        free(hashes);
+        free(radialhashes);
     }
-
-    free(hashes);
-    free(radialhashes);
 
     return 0;
 }

@@ -148,7 +148,7 @@ def main ():
         search.append(searcharr)
 
     directory = sys.argv[1]
-
+    print "Processing", directory
     # preprocess all images; generate signatures for each
     for root, _, files in os.walk(directory):
         for f in files:
@@ -201,5 +201,5 @@ def main ():
                     f.write("\n")
 
 
-# if __name__ == '__main__':
-#     main()
+if __name__ == '__main__':
+    main()

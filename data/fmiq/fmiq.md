@@ -11,8 +11,6 @@ which have been modified in various ways
 among a database of ~ 3500 images?
 
 The algorithm performed very well on: 
-
-It performed somewhat well on: 
 original        (20/20 perfect)
 contrast        (20/20 perfect)
 paint           (20/20 perfect)
