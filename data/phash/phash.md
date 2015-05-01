@@ -20,12 +20,11 @@ original        (19/19 perfect)
 contrast        (19/19 perfect)
 grayscale       (19/19 perfect)
 paint           (19/19 perfect)
-resizeup        (20/20 perfect)
-resizedown      (20/20 perfect)
-tint            (20/20 perfect)
+resizeup        (19/19 perfect)
+resizedown      (19/19 perfect)
+tint            (19/19 perfect)
 hue             (14/19 perfect, 3/19 in top 10)
 
-It worked somewhat well on:
 
 It failed on: 
 aspectratio     (2/19 perfect, 2/19 in top 10)
